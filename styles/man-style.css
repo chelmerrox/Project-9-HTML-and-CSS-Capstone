@@ -1,0 +1,32 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  background-color: white;
+  position: relative;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-1 .menu-icon {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/*# sourceMappingURL=man-style.css.map */
