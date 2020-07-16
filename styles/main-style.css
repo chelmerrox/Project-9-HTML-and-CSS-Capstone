@@ -58,6 +58,10 @@ a {
     border: 1.9px solid #ffffff;
     background-color: #e3e3e3;
   }
+
+  .section-3 h3 {
+    color: 272a31;
+  }
 }
 
 /*# sourceMappingURL=main-style.css.map */
