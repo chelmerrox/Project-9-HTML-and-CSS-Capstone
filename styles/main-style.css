@@ -22,4 +22,12 @@ a {
   text-decoration: none;
 }
 
+@media only screen and (min-width: 768px) {
+  .navbar-2 svg.facebook-logo, .navbar-2 svg.twitter-logo {
+    fill: #ffffff;
+    width: 16px !important;
+    height: 16px !important;
+  }
+}
+
 /*# sourceMappingURL=main-style.css.map */
