@@ -26,6 +26,11 @@ a {
   .section-1 .card-body .heading-1, .section-1 .card-body .heading-2 {
     color: #ec5242;
   }
+
+  .section-2 .card-body {
+    border: 1.9px solid #ffffff;
+    background-color: #e3e3e3;
+  }
 }
 @media only screen and (min-width: 768px) {
   .navbar-2 svg.facebook-logo, .navbar-2 svg.twitter-logo {
@@ -47,6 +52,11 @@ a {
 
   .section-1 .card-body .heading-1, .section-1 .card-body .heading-2 {
     color: #ec5242;
+  }
+
+  .section-2 .card-body {
+    border: 1.9px solid #ffffff;
+    background-color: #e3e3e3;
   }
 }
 
