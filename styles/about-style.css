@@ -22,6 +22,11 @@ a {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 767px) {
+  .section-1 .card-body .heading-1, .section-1 .card-body .heading-2 {
+    color: #ec5242;
+  }
+}
 @media only screen and (min-width: 768px) {
   .navbar-2 svg.facebook-logo, .navbar-2 svg.twitter-logo {
     fill: #ffffff;
