@@ -44,8 +44,8 @@ a {
     width: 99px;
     height: 46px;
   }
-  .navbar-3 .navbar-3-links .link-1, .navbar-3 .navbar-3-links .link-6 {
-    color: #ec5242;
+  .navbar-3 .navbar-3-links .link-3, .navbar-3 .navbar-3-links .link-6 {
+    color: #ec5242 !important;
   }
   .navbar-3 .navbar-3-links .link-6 {
     border: 2.9px solid #ec5242;
