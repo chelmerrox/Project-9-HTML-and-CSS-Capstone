@@ -60,6 +60,11 @@ a {
     top: -20px;
     background: linear-gradient(rgba(255, 95, 42, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%);
   }
+
+  .section-6 .mozilla-logo, .section-6 .google-logo, .section-6 .naver-logo, .section-6 .airbnb-logo {
+    width: 190px;
+    height: 190px;
+  }
 }
 @media only screen and (min-width: 768px) {
   .navbar-2 svg.facebook-logo, .navbar-2 svg.twitter-logo {
