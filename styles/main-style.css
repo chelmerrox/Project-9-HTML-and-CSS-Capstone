@@ -62,6 +62,13 @@ a {
   .section-4 .btn {
     background-color: #ec5242;
   }
+
+  .section-5 img {
+    box-shadow: -11px -5px black;
+  }
+  .section-5 .media-body .font-italic {
+    color: #ec5242;
+  }
 }
 @media only screen and (min-width: 768px) {
   .navbar-2 svg.facebook-logo, .navbar-2 svg.twitter-logo {
@@ -126,6 +133,45 @@ a {
   }
   .section-4 a {
     text-decoration: underline;
+  }
+
+  .section-5 {
+    margin: 0 auto;
+    max-width: 1400px;
+  }
+  .section-5 .section-5-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 75px;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  .section-5 .section-5-1 .grid-5-1, .section-5 .section-5-1 .grid-5-4 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .section-5 .section-5-1 .grid-5-2, .section-5 .section-5-1 .grid-5-5 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .section-5 .section-5-1 .grid-5-3, .section-5 .section-5-1 .grid-5-6 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .section-5 .section-5-1 .grid-5-1, .section-5 .section-5-1 .grid-5-2, .section-5 .section-5-1 .grid-5-3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .section-5 .section-5-1 .grid-5-4, .section-5 .section-5-1 .grid-5-5, .section-5 .section-5-1 .grid-5-6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .section-5 .section-5-1 img {
+    box-shadow: -11px -5px black;
+  }
+  .section-5 .section-5-1 .media-body .font-italic {
+    color: #ec5242;
   }
 }
 
