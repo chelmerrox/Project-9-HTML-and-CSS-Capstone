@@ -35,6 +35,11 @@ a {
   .section-3 a.text-underline {
     text-decoration: underline;
   }
+
+  .section-4 .card {
+    margin: 0 auto;
+    max-width: 767px;
+  }
 }
 @media only screen and (min-width: 768px) {
   .navbar-2 svg.facebook-logo, .navbar-2 svg.twitter-logo {
@@ -65,6 +70,11 @@ a {
 
   .section-3 a.text-underline {
     text-decoration: underline;
+  }
+
+  .section-4 .card {
+    margin: 0 auto;
+    max-width: 1400px;
   }
 }
 
