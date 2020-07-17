@@ -23,7 +23,7 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
-  .navbar-1 svg.facebook-logo, .navbar-1 svg.twitter-logo {
+  .navbar-2 svg.facebook-logo, .navbar-2 svg.twitter-logo {
     fill: #ffffff;
     width: 10px !important;
     height: 10px !important;
