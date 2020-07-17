@@ -27,7 +27,7 @@ This is a solo project where I had to replicate/clone the CC Global Summit 2015 
 
 ## Live Demo
 
-<a href="https://raw.githack.com/chelmerrox/Project-9-HTML-and-CSS-Capstone/project-draft/index.html">Live demo</a>
+<a href="https://raw.githack.com/chelmerrox/Project-9-HTML-and-CSS-Capstone/project-draft/main.html">Live demo</a>
 
 ## Getting Started
 
