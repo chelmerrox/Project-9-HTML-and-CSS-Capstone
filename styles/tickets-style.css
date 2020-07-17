@@ -22,18 +22,25 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 767px) {
-  .navbar-1 svg.facebook-logo, .navbar-1 svg.twitter-logo {
-    fill: #ffffff;
-    width: 10px !important;
-    height: 10px !important;
-  }
-}
 @media only screen and (min-width: 768px) {
   .navbar-1 svg.facebook-logo, .navbar-1 svg.twitter-logo {
     fill: #ffffff;
     width: 10px !important;
     height: 10px !important;
+  }
+
+  .navbar-3 {
+    box-shadow: 5px 5px 7px #e3e3e3;
+  }
+  .navbar-3 .navbar-3-logo {
+    width: 99px;
+    height: 46px;
+  }
+  .navbar-3 .navbar-3-links .link-1, .navbar-3 .navbar-3-links .link-6 {
+    color: #ec5242;
+  }
+  .navbar-3 .navbar-3-links .link-6 {
+    border: 2.9px solid #ec5242;
   }
 }
 
