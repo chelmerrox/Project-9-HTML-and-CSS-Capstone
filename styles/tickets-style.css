@@ -1,0 +1,40 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  background-color: white;
+  position: relative;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-1 svg.facebook-logo, .navbar-1 svg.twitter-logo {
+    fill: #ffffff;
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .navbar-1 svg.facebook-logo, .navbar-1 svg.twitter-logo {
+    fill: #ffffff;
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
+
+/*# sourceMappingURL=tickets-style.css.map */
