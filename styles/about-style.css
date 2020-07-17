@@ -1,17 +1,48 @@
-/* Error: Can't find stylesheet to import.
- *    ,
- * 27 | @import styles-for-mobile-screen
- *    |         ^^^^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   about.sass 27:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a    \2577 \a 27 \2502  @import styles-for-mobile-screen\d\a    \2502          ^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   about.sass 27:9  root stylesheet";
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  background-color: white;
+  position: relative;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-2 svg.facebook-logo, .navbar-2 svg.twitter-logo {
+    fill: #ffffff;
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+  .navbar-3 .navbar-3-logo {
+    width: 99px;
+    height: 46px;
+  }
+  .navbar-3 .navbar-3-links .link-1, .navbar-3 .navbar-3-links .link-6 {
+    color: #ec5242;
+  }
+  .navbar-3 .navbar-3-links .link-6 {
+    border: 2.9px solid #ec5242;
+  }
+
+  .section-1 .card-body .heading-1, .section-1 .card-body .heading-2 {
+    color: #ec5242;
+  }
+}
+
+/*# sourceMappingURL=about-style.css.map */
