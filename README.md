@@ -1,6 +1,6 @@
 # Project 9 - HTML and CSS Capstone Project
 
-This is a solo project where I had to replicate/clone the CC Global Summit 2015 Website according to <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">these specifications.</a>
+This is a solo project where I had to replicate/clone the CC Global Summit 2015 website according to <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">these specifications.</a>
 
 ## Preview of web page
 
@@ -21,7 +21,9 @@ This is a solo project where I had to replicate/clone the CC Global Summit 2015 
 - HTML5
 - CSS3
 - <a href="https://materializecss.com/icons.html">Google icons</a>
-- SVG icons
+- <a href="https://www.flaticon.com/">SVG icons</a>
+- <a href="https://www.logo.wine/logo/Airbnb">Company Logos in SVG format</a>
+- Google Web Fonts
 - Bootstrap 4
 - Sass
 
