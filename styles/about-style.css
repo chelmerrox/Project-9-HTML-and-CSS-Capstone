@@ -40,6 +40,26 @@ a {
     margin: 0 auto;
     max-width: 767px;
   }
+
+  .section-5 .section-5-1 {
+    position: relative;
+  }
+  .section-5 .section-5-1 img {
+    height: 350px;
+  }
+  .section-5 .section-5-1 .card-img-overlay {
+    position: absolute;
+    top: -20px;
+    background: linear-gradient(rgba(255, 95, 42, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%);
+  }
+  .section-5 .section-5-2 {
+    position: relative;
+  }
+  .section-5 .section-5-2 .card-img-overlay {
+    position: absolute;
+    top: -20px;
+    background: linear-gradient(rgba(255, 95, 42, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%);
+  }
 }
 @media only screen and (min-width: 768px) {
   .navbar-2 svg.facebook-logo, .navbar-2 svg.twitter-logo {
@@ -75,6 +95,16 @@ a {
   .section-4 .card {
     margin: 0 auto;
     max-width: 1400px;
+  }
+
+  .section-5 .section-5-1 img {
+    height: 350px;
+  }
+  .section-5 .card-img-overlay {
+    background: linear-gradient(rgba(255, 95, 42, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%);
+  }
+  .section-5 .section-5-2 img {
+    height: 350px;
   }
 }
 
