@@ -69,6 +69,11 @@ a {
   .section-5 .media-body .font-italic {
     color: #ec5242;
   }
+
+  .section-6 .mozilla-logo, .section-6 .google-logo, .section-6 .naver-logo, .section-6 .airbnb-logo {
+    width: 100px;
+    height: 100px;
+  }
 }
 @media only screen and (min-width: 768px) {
   .navbar-2 svg.facebook-logo, .navbar-2 svg.twitter-logo {
