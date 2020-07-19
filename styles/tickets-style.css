@@ -39,6 +39,10 @@ a {
   .section-3 table tbody .custom-radio label {
     color: #ec5242;
   }
+
+  .section-4 {
+    box-shadow: -1px -1px 5px #e3e3e3;
+  }
 }
 @media only screen and (min-width: 768px) {
   .navbar-2 svg.facebook-logo, .navbar-2 svg.twitter-logo {
@@ -76,6 +80,10 @@ a {
   }
   .section-3 table tbody .custom-radio label {
     color: #ec5242;
+  }
+
+  .section-4 {
+    box-shadow: -1px -3.8px 5px #e3e3e3;
   }
 }
 
