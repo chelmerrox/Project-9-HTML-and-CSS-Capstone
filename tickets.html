@@ -74,26 +74,105 @@
       <main class="container-fluid">
         <!--Section 0 for tablet, laptop & extra large screen sizes-->
         <div class="row d-none d-sm-none d-md-flex d-lg-flex d-xl-flex justify-content-md-end justify-content-lg-end justify-content-xl-end mt-4">
-          <a href="main.html" class="col-md-1"><i class="material-icons text-muted">home</i></a>
-          <i class="material-icons text-muted">keyboard_arrow_right</i>
-          <a href="tickets.html" class="col-md-1 text-muted">Tickets</a>
-          <i class="material-icons text-muted">keyboard_arrow_right</i>
-          <a href="about.html" class="col-md-1 text-muted">About</a>
+        <a href="main.html" class="col-md-1"><i class="material-icons text-muted">home</i></a>
+        <i class="material-icons text-muted">keyboard_arrow_right</i>
+        <a href="tickets.html" class="col-md-1 text-muted">Tickets</a>
+        <i class="material-icons text-muted">keyboard_arrow_right</i>
+        <a href="about.html" class="col-md-1 text-muted">About</a>
         </div>
 
-         <!--Section 1 for all screen sizes-->
-         <section class="row section-1 p-4">
-          <h4 class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-capitalize text-dark font-weight-bold text-center my-3">select tickets</h4>
-         </section>
+        <!--Section 1 for all screen sizes-->
+        <section class="row section-1 p-4">
+      <h4 class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-capitalize text-dark font-weight-bold text-center my-3">select tickets</h4>
+        </section>
 
-         <!--Section 2 for all screen sizes-->
+        <!--Section 2 for all screen sizes-->
         <div class="row mt-2 mx-5 card section-2">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-body">
-             <p class="text-center"><span class="text-uppercase mr-3 font-weight-bold">step 1</span>Please select the day when you want to join CC Global Summit 2015</p>
+            <p class="text-center"><span class="text-uppercase mr-3 font-weight-bold">step 1</span>Please select the day when you want to join CC Global Summit 2015</p>
           </div>
         </div>
-      </main>
 
+        <!--Section 3 for all screen sizes; The table-->
+        <div class="row section-3 mt-5 mx-5">
+          <table class="col-12 col-sm-12 table table-sm-responsive table-md-responsive table-lg-responsive table-xl-responsive">
+            <thead class="thead-light">
+              <tr>
+                <th class="text-center border border-left-0 border-top-0 border-secondary">Ticket</th>
+                <th class="text-center border border-left-0 border-top-0 border-secondary">1-Day-Ticket</th>
+                <th class="border border-left-0 border-top-0 border-right-0 border-secondary"></th>
+                <th class="text-left border border-left-0 border-top-0 border-secondary">2-Day-Ticket</th>
+                <th class="border border-left-0 border-top-0 border-right-0 border-secondary"></th>
+                <th class="text-center text-capitalize border border-left-0 border-top-0 border-right-0 border-secondary">cC affiliate/partners</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="text-center bg-light border border-left-0 border-top-0 border-secondary">Date</td>
+                <td class="text-center border border-left-0 border-top-0 border-secondary">15.Oct (Thu)</td>
+                <td class="text-center pl-5 border border-left-0 border-secondary">16.Oct (Fri)</td>
+                <td class="text-center pl-5 border border-left-0 border-top-0 border-secondary">15-16 Oct (Thu-Fri)</td>
+                <td class="border border-left-0 border-right-0 border-secondary"></td>
+                <td class="text-center border border-left-0 border-top-0 border-right-0 border-secondary">15-16 Oct (Thu-Fri)</td>
+              </tr>
+
+              <tr>
+                <td class="text-center bg-light border border-left-0 border-top-0 border-secondary">Normal</td>
+
+                <td class="custom-radio border border-left-0 border-top-0 border-secondary">
+                  <label class="text-center font-weight-bold" id="radio-btn-1"><del>W</del>70,000</label><br>
+                  <input type="radio" name="radio-btn-1" class="mx-4"/>
+                </td>
+
+                <td class="custom-radio pl-5 border border-left-0 border-top-0 border-secondary">
+                  <label class="text-center font-weight-bold" id="radio-btn-2"><del>W</del>70,000</label><br>
+                  <input type="radio" name="radio-btn-2" class="mx-4"/>
+                </td>
+                
+                <td class="custom-radio pl-5 border border-left-0 border-top-0 border-secondary">
+                  <label class="text-center font-weight-bold" id="radio-btn-3"><del>W</del>100,000</label><br>
+                  <input type="radio" name="radio-btn-3" class="mx-4"/>
+                </td>
+                
+                <td class="border border-left-0 border-top-0 border-right-0 border-secondary"></td>
+                
+                <td class="custom-radio pl-5 border border-left-0 border-top-0 border-right-0 border-secondary">
+                  <label class="text-center font-weight-bold" id="radio-btn-4"><del>W</del>0</label><br>
+                  <input type="radio" name="radio-btn-4" class="mx-2"/>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="text-center bg-light border border-left-0 border-top-0 border-bottom-0 border-secondary">Students</td>
+                
+                <td class="custom-radio border border-left-0 border-top-0 border-bottom-0 border-secondary">
+                  <label class="text-center font-weight-bold" id="radio-btn-5"><del>W</del>30,000</label><br>
+                  <input type="radio" name="radio-btn-5" class="mx-4"/>
+                </td>
+                
+                <td class="custom-radio pl-5 border border-left-0 border-top-0 border-bottom-0 border-secondary">
+                  <label class="text-center font-weight-bold" id="radio-btn-6"><del>W</del>30,000</label><br>
+                  <input type="radio" name="radio-btn-6" class="mx-4"/>
+                </td>
+                
+                <td class="custom-radio pl-5 border border-left-0 border-top-0 border-bottom-0 border-secondary">
+                  <label class="text-center font-weight-bold" id="radio-btn-7"><del>W</del>50,000</label><br>
+                  <input type="radio" name="radio-btn-7" class="mx-4"/>
+                </td>
+                
+                <td></td>
+                
+                <td class="custom-radio pl-5">
+                  <label class="text-center font-weight-bold" id="radio-btn-8"><del>W</del>0</label><br>
+                  <input type="radio" name="radio-btn-8" class="mx-2"/>
+                </td>
+              </tr>
+            </tbody>
+            
+          </table>
+        </div>
+      </main>
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
