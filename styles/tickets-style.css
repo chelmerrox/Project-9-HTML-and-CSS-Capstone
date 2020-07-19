@@ -29,6 +29,16 @@ a {
   .section-2.card .card-body p span {
     color: #ec5242;
   }
+
+  .section-3 {
+    margin: 0 auto !important;
+    max-width: 1200px !important;
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  .section-3 table tbody .custom-radio label {
+    color: #ec5242;
+  }
 }
 @media only screen and (min-width: 768px) {
   .navbar-2 svg.facebook-logo, .navbar-2 svg.twitter-logo {
@@ -55,6 +65,16 @@ a {
     border-radius: 50px;
   }
   .section-2.card .card-body p span {
+    color: #ec5242;
+  }
+
+  .section-3 {
+    margin: 0 auto !important;
+    max-width: 998px !important;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .section-3 table tbody .custom-radio label {
     color: #ec5242;
   }
 }
