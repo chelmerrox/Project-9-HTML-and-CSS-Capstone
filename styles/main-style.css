@@ -22,6 +22,58 @@ a {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 400px) {
+  .section-1 .card-body .heading-1, .section-1 .card-body .heading-2 {
+    color: #ec5242;
+  }
+  .section-1 .section-2 .card-body {
+    border: 1.9px solid #ffffff;
+    background-color: #e3e3e3;
+  }
+  .section-1 .section-4 .section-4-1-flex-sm-items {
+    display: flex;
+    justify-content: space-around;
+    background-color: #666666;
+  }
+  .section-1 .section-4 .section-4-1-flex-sm-items .item-1-1 {
+    width: 100px;
+    height: 70px;
+  }
+  .section-1 .section-4 .section-4-1-flex-sm-items .item-1-2 {
+    width: 67px;
+    height: 70px;
+  }
+  .section-1 .section-4 .section-4-1-flex-sm-items .item-1-3 {
+    width: 67px;
+    height: 70px;
+  }
+  .section-1 .section-4 .section-4-1-flex-sm-items .item-1-4 {
+    height: 70px;
+  }
+  .section-1 .section-4 .section-4-1-flex-sm-items .item-1-5 {
+    width: 100px;
+    height: 70px;
+  }
+  .section-1 .section-4 .section-4-1-flex-sm-items .item-2 {
+    color: #ec5242;
+  }
+  .section-1 .section-4 .section-4-1-flex-sm-items .btn {
+    background-color: #ec5242;
+  }
+  .section-1 .section-5 img {
+    box-shadow: -11px -5px black;
+  }
+  .section-1 .section-5 img .media-body .font-italic {
+    color: #ec5242;
+  }
+  .section-1 .section-6 .mozilla-logo, .section-1 .section-6 .google-logo, .section-1 .section-6 .naver-logo, .section-1 .section-6 .airbnb-logo {
+    width: 100px;
+    height: 100px;
+  }
+  .section-1 footer .media-body {
+    width: 90px;
+  }
+}
 @media only screen and (max-width: 767px) {
   .section-1 .card-body .heading-1, .section-1 .card-body .heading-2 {
     color: #ec5242;
