@@ -1,4 +1,4 @@
-# Project 9 - HTML and CSS Capstone Project
+# Project 8 - HTML and CSS Capstone Project
 
 This is a solo project where I had to replicate/clone the CC Global Summit 2015 website according to <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">these specifications.</a>
 
@@ -6,15 +6,31 @@ This is a solo project where I had to replicate/clone the CC Global Summit 2015 
 
 ### Mobile Screen
 
-![Mobile preview](images/mobile_preview.PNG)
+#### Main Web Page (Home page)
 
-### Tablet Screen
+![Mobile preview](images/main_mobile.PNG)
 
-![Tablet preview](images/tablet_preview.PNG)
+#### About Web Page 
 
-### Laptop Screen
+![Mobile preview](images/about_mobile.PNG)
 
-![Laptop preview](images/laptop_preview.PNG)
+#### Tickets Web Page 
+
+![Mobile preview](images/tickets_mobile.PNG)
+
+### Tablet Screen, Laptop Screen and Extra Large Screen
+
+#### Main Web Page (Home page)
+
+![Tablet preview](images/main_tablet.PNG)
+
+#### About Web Page 
+
+![Tablet preview](images/about_tablet.PNG)
+
+#### Tickets Web Page 
+
+![Tablet preview](images/tickets_tablet.PNG)
 
 ## Built With
 
@@ -30,6 +46,10 @@ This is a solo project where I had to replicate/clone the CC Global Summit 2015 
 ## Live Demo
 
 <a href="https://raw.githack.com/chelmerrox/Project-9-HTML-and-CSS-Capstone/project-draft/main.html">Live demo</a>
+
+## My Video Presentation for this Project
+
+
 
 ## Getting Started
 
