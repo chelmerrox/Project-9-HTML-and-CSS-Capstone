@@ -1,3 +1,7 @@
+@font-face {
+  font-family: cocogoose;
+  src: url(../../font-families/cocogoose-pro.regular);
+}
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -23,8 +27,27 @@ a {
 }
 
 @media only screen and (max-width: 767px) {
-  .section-1 .card-body .heading-1, .section-1 .card-body .heading-2 {
+  .section-1 h3 {
     color: #ec5242;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    font-family: cocogoose;
+  }
+  .section-1 p {
+    color: #ec5242;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 45px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    font-family: cocogoose;
   }
 
   .section-2 .card-body {
@@ -87,8 +110,13 @@ a {
     border: 2.9px solid #ec5242;
   }
 
-  .section-1 .card-body .heading-1, .section-1 .card-body .heading-2 {
+  .section-1 p {
     color: #ec5242;
+    margin-top: 0;
+    padding-top: 25px;
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: cocogoose;
   }
 
   .section-2 .card-body {
