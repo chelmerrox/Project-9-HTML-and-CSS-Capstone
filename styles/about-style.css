@@ -2,7 +2,10 @@
   font-family: cocogoose;
   src: url(../../font-families/cocogoose-pro.regular);
 }
-*, *::before, *::after {
+
+*,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -36,8 +39,9 @@ a {
     padding-top: 50px;
     padding-bottom: 10px;
     padding-left: 50px;
-    font-family: cocogoose;
+    font-family: cocogoose, sans-serif;
   }
+
   .section-1 p {
     color: #ec5242;
     margin-top: 0;
@@ -47,11 +51,11 @@ a {
     font-size: 45px;
     padding-bottom: 80px;
     padding-left: 50px;
-    font-family: cocogoose;
+    font-family: cocogoose, sans-serif;
   }
 
   .section-2 .card-body {
-    border: 1.9px solid #ffffff;
+    border: 1.9px solid #fff;
     background-color: #e3e3e3;
   }
 
@@ -67,31 +71,40 @@ a {
   .section-5 .section-5-1 {
     position: relative;
   }
+
   .section-5 .section-5-1 img {
     height: 350px;
   }
+
   .section-5 .section-5-1 .card-img-overlay {
     position: absolute;
     top: -20px;
     background: linear-gradient(rgba(255, 95, 42, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%);
   }
+
   .section-5 .section-5-2 {
     position: relative;
   }
+
   .section-5 .section-5-2 .card-img-overlay {
     position: absolute;
     top: -20px;
     background: linear-gradient(rgba(255, 95, 42, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%);
   }
 
-  .section-6 .mozilla-logo, .section-6 .google-logo, .section-6 .naver-logo, .section-6 .airbnb-logo {
+  .section-6 .mozilla-logo,
+  .section-6 .google-logo,
+  .section-6 .naver-logo,
+  .section-6 .airbnb-logo {
     width: 190px;
     height: 190px;
   }
 }
+
 @media only screen and (min-width: 768px) {
-  .navbar-2 svg.facebook-logo, .navbar-2 svg.twitter-logo {
-    fill: #ffffff;
+  .navbar-2 svg.facebook-logo,
+  .navbar-2 svg.twitter-logo {
+    fill: #fff;
     width: 10px !important;
     height: 10px !important;
   }
@@ -99,13 +112,17 @@ a {
   .navbar-3 {
     box-shadow: 5px 5px 7px #e3e3e3;
   }
+
   .navbar-3 .navbar-3-logo {
     width: 99px;
     height: 46px;
   }
-  .navbar-3 .navbar-3-links .link-1, .navbar-3 .navbar-3-links .link-6 {
+
+  .navbar-3 .navbar-3-links .link-1,
+  .navbar-3 .navbar-3-links .link-6 {
     color: #ec5242;
   }
+
   .navbar-3 .navbar-3-links .link-6 {
     border: 2.9px solid #ec5242;
   }
@@ -116,11 +133,11 @@ a {
     padding-top: 25px;
     font-weight: bolder;
     font-size: 45px;
-    font-family: cocogoose;
+    font-family: cocogoose, sans-serif;
   }
 
   .section-2 .card-body {
-    border: 1.9px solid #ffffff;
+    border: 1.9px solid #fff;
     background-color: #e3e3e3;
   }
 
@@ -136,12 +153,12 @@ a {
   .section-5 .section-5-1 img {
     height: 350px;
   }
+
   .section-5 .card-img-overlay {
     background: linear-gradient(rgba(255, 95, 42, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%);
   }
+
   .section-5 .section-5-2 img {
     height: 350px;
   }
 }
-
-/*# sourceMappingURL=about-style.css.map */

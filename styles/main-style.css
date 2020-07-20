@@ -1,8 +1,12 @@
 @font-face {
   font-family: cocogoose;
-  src: url(../../font-families/cocogoose-pro.regular);
+  src: url(../font-families/cocogoose-pro.regular);
+  font-weight: bolder;
 }
-*, *::before, *::after {
+
+*,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -30,6 +34,7 @@ a {
   .section-1 {
     background: url("../images/people-walking.jpg") no-repeat center;
   }
+
   .section-1 h3 {
     color: #ec5242;
     background-color: #eeeeef;
@@ -38,7 +43,9 @@ a {
     margin-bottom: 0;
     padding-top: 50px;
     padding-bottom: 10px;
+    font-family: cocogoose, sans-serif;
   }
+
   .section-1 p {
     color: #ec5242;
     background-color: #eeeeef;
@@ -49,40 +56,48 @@ a {
     font-weight: bolder;
     font-size: 35px;
     padding-bottom: 80px;
+    font-family: cocogoose, sans-serif;
   }
 
   .section-2 .card-body {
-    border: 1.9px solid #ffffff;
+    border: 1.9px solid #fff;
     background-color: #e3e3e3;
   }
 
   .section-4 .section-4-1-flex-sm-items {
     display: flex;
     justify-content: space-around;
-    background-color: #666666;
+    background-color: #666;
   }
+
   .section-4 .section-4-1-flex-sm-items .item-1-1 {
     width: 100px;
     height: 70px;
   }
+
   .section-4 .section-4-1-flex-sm-items .item-1-2 {
     width: 67px;
     height: 70px;
   }
+
   .section-4 .section-4-1-flex-sm-items .item-1-3 {
     width: 67px;
     height: 70px;
   }
+
   .section-4 .section-4-1-flex-sm-items .item-1-4 {
     height: 70px;
   }
+
   .section-4 .section-4-1-flex-sm-items .item-1-5 {
     width: 100px;
     height: 70px;
   }
+
   .section-4 .section-4-1-flex-sm-items .item-2 {
     color: #ec5242;
   }
+
   .section-4 .section-4-1-flex-sm-items .btn {
     background-color: #ec5242;
   }
@@ -90,11 +105,15 @@ a {
   .section-5 img {
     box-shadow: -11px -5px black;
   }
+
   .section-5 img .media-body .font-italic {
     color: #ec5242;
   }
 
-  .section-6 .mozilla-logo, .section-6 .google-logo, .section-6 .naver-logo, .section-6 .airbnb-logo {
+  .section-6 .mozilla-logo,
+  .section-6 .google-logo,
+  .section-6 .naver-logo,
+  .section-6 .airbnb-logo {
     width: 100px;
     height: 100px;
   }
@@ -103,10 +122,12 @@ a {
     width: 90px;
   }
 }
+
 @media only screen and (max-width: 767px) {
   .section-1 {
     background: url("../images/people-walking.jpg") no-repeat center;
   }
+
   .section-1 h3 {
     color: #ec5242;
     background-color: #eeeeef;
@@ -117,8 +138,9 @@ a {
     padding-top: 50px;
     padding-bottom: 10px;
     padding-left: 50px;
-    font-family: cocogoose;
+    font-family: cocogoose, sans-serif;
   }
+
   .section-1 p {
     color: #ec5242;
     background-color: #eeeeef;
@@ -130,41 +152,48 @@ a {
     font-size: 35px;
     padding-bottom: 80px;
     padding-left: 50px;
-    font-family: cocogoose;
+    font-family: cocogoose, sans-serif;
   }
 
   .section-2 .card-body {
-    border: 1.9px solid #ffffff;
+    border: 1.9px solid #fff;
     background-color: #e3e3e3;
   }
 
   .section-4 .section-4-1-flex-sm-items {
     display: flex;
     justify-content: space-around;
-    background-color: #666666;
+    background-color: #666;
   }
+
   .section-4 .item-1-1 {
     width: 100px;
     height: 70px;
   }
+
   .section-4 .item-1-2 {
     width: 67px;
     height: 70px;
   }
+
   .section-4 .item-1-3 {
     width: 67px;
     height: 70px;
   }
+
   .section-4 .item-1-4 {
     height: 70px;
   }
+
   .section-4 .item-1-5 {
     width: 100px;
     height: 70px;
   }
+
   .section-4 .item-2 {
     color: #ec5242;
   }
+
   .section-4 .btn {
     background-color: #ec5242;
   }
@@ -172,11 +201,15 @@ a {
   .section-5 img {
     box-shadow: -11px -5px black;
   }
+
   .section-5 .media-body .font-italic {
     color: #ec5242;
   }
 
-  .section-6 .mozilla-logo, .section-6 .google-logo, .section-6 .naver-logo, .section-6 .airbnb-logo {
+  .section-6 .mozilla-logo,
+  .section-6 .google-logo,
+  .section-6 .naver-logo,
+  .section-6 .airbnb-logo {
     width: 100px;
     height: 100px;
   }
@@ -185,9 +218,11 @@ a {
     width: 90px;
   }
 }
+
 @media only screen and (min-width: 768px) {
-  .navbar-2 svg.facebook-logo, .navbar-2 svg.twitter-logo {
-    fill: #ffffff;
+  .navbar-2 svg.facebook-logo,
+  .navbar-2 svg.twitter-logo {
+    fill: #fff;
     width: 16px !important;
     height: 16px !important;
   }
@@ -195,13 +230,17 @@ a {
   .navbar-3 {
     box-shadow: 5px 5px 7px #e3e3e3;
   }
+
   .navbar-3 .navbar-3-logo {
     width: 99px;
     height: 46px;
   }
-  .navbar-3 .navbar-3-links .link-1, .navbar-3 .navbar-3-links .link-6 {
+
+  .navbar-3 .navbar-3-links .link-1,
+  .navbar-3 .navbar-3-links .link-6 {
     color: #ec5242;
   }
+
   .navbar-3 .navbar-3-links .link-6 {
     border: 2.9px solid #ec5242;
   }
@@ -210,6 +249,7 @@ a {
     background: url("../images/people-walking.jpg") no-repeat fixed center;
     background-size: cover;
   }
+
   .section-1 h3 {
     color: #ec5242;
     background-color: #eeeeef;
@@ -219,8 +259,9 @@ a {
     padding-top: 100px;
     padding-bottom: 10px;
     padding-left: 70px;
-    font-family: cocogoose;
+    font-family: cocogoose, sans-serif;
   }
+
   .section-1 p {
     color: #ec5242;
     background-color: #eeeeef;
@@ -232,48 +273,56 @@ a {
     font-size: 35px;
     padding-bottom: 150px;
     padding-left: 70px;
-    font-family: cocogoose;
+    font-family: cocogoose, sans-serif;
   }
 
   .section-2 .card-body {
-    border: 1.9px solid #ffffff;
+    border: 1.9px solid #fff;
     background-color: #e3e3e3;
   }
 
   .section-3 h3 {
-    color: 272a31;
+    color: #272a31;
   }
 
   .section-4 .section-4-1-flex-sm-items {
-    background-color: #666666;
+    background-color: #666;
     margin: 0 auto;
     max-width: 1440px;
   }
+
   .section-4 .item-1-1 {
     width: 70px;
     height: 70px;
   }
+
   .section-4 .item-1-2 {
     width: 67px;
     height: 70px;
   }
+
   .section-4 .item-1-3 {
     width: 67px;
     height: 70px;
   }
+
   .section-4 .item-1-4 {
     height: 70px;
   }
+
   .section-4 .item-1-5 {
     width: 100px;
     height: 70px;
   }
+
   .section-4 .item-2 {
     color: #ec5242;
   }
+
   .section-4 .item-3 p {
     font-size: 10px;
   }
+
   .section-4 a {
     text-decoration: underline;
   }
@@ -282,6 +331,7 @@ a {
     margin: 0 auto;
     max-width: 1400px;
   }
+
   .section-5 .section-5-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -290,32 +340,44 @@ a {
     margin: 0 auto;
     max-width: 900px;
   }
-  .section-5 .section-5-1 .grid-5-1, .section-5 .section-5-1 .grid-5-4 {
+
+  .section-5 .section-5-1 .grid-5-1,
+  .section-5 .section-5-1 .grid-5-4 {
     grid-row-start: 1;
     grid-row-end: 2;
   }
-  .section-5 .section-5-1 .grid-5-2, .section-5 .section-5-1 .grid-5-5 {
+
+  .section-5 .section-5-1 .grid-5-2,
+  .section-5 .section-5-1 .grid-5-5 {
     grid-row-start: 2;
     grid-row-end: 3;
   }
-  .section-5 .section-5-1 .grid-5-3, .section-5 .section-5-1 .grid-5-6 {
+
+  .section-5 .section-5-1 .grid-5-3,
+  .section-5 .section-5-1 .grid-5-6 {
     grid-row-start: 3;
     grid-row-end: 4;
   }
-  .section-5 .section-5-1 .grid-5-1, .section-5 .section-5-1 .grid-5-2, .section-5 .section-5-1 .grid-5-3 {
+
+  .section-5 .section-5-1 .grid-5-1,
+  .section-5 .section-5-1 .grid-5-2,
+  .section-5 .section-5-1 .grid-5-3 {
     grid-column-start: 1;
     grid-column-end: 2;
   }
-  .section-5 .section-5-1 .grid-5-4, .section-5 .section-5-1 .grid-5-5, .section-5 .section-5-1 .grid-5-6 {
+
+  .section-5 .section-5-1 .grid-5-4,
+  .section-5 .section-5-1 .grid-5-5,
+  .section-5 .section-5-1 .grid-5-6 {
     grid-column-start: 2;
     grid-column-end: 3;
   }
+
   .section-5 .section-5-1 img {
     box-shadow: -11px -5px black;
   }
+
   .section-5 .section-5-1 .media-body .font-italic {
     color: #ec5242;
   }
 }
-
-/*# sourceMappingURL=main-style.css.map */

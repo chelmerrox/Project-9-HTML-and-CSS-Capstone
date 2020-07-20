@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -26,6 +28,7 @@ a {
   .section-2.card {
     border-radius: 50px;
   }
+
   .section-2.card .card-body p span {
     color: #ec5242;
   }
@@ -36,6 +39,7 @@ a {
     padding-top: 30px;
     padding-bottom: 70px;
   }
+
   .section-3 table tbody .custom-radio label {
     color: #ec5242;
   }
@@ -47,6 +51,7 @@ a {
   .section-5.card {
     border-radius: 50px;
   }
+
   .section-5.card .card-body p span {
     color: #ec5242;
   }
@@ -54,14 +59,17 @@ a {
   .section-6-and-7 .bg-orange {
     background: #ec5242;
   }
+
   .section-6-and-7 .select-lunch-btn {
     display: flex;
     justify-content: center;
   }
 }
+
 @media only screen and (min-width: 768px) {
-  .navbar-2 svg.facebook-logo, .navbar-2 svg.twitter-logo {
-    fill: #ffffff;
+  .navbar-2 svg.facebook-logo,
+  .navbar-2 svg.twitter-logo {
+    fill: #fff;
     width: 10px !important;
     height: 10px !important;
   }
@@ -69,13 +77,17 @@ a {
   .navbar-3 {
     box-shadow: 5px 5px 7px #e3e3e3;
   }
+
   .navbar-3 .navbar-3-logo {
     width: 99px;
     height: 46px;
   }
-  .navbar-3 .navbar-3-links .link-3, .navbar-3 .navbar-3-links .link-6 {
+
+  .navbar-3 .navbar-3-links .link-3,
+  .navbar-3 .navbar-3-links .link-6 {
     color: #ec5242 !important;
   }
+
   .navbar-3 .navbar-3-links .link-6 {
     border: 2.9px solid #ec5242;
   }
@@ -83,6 +95,7 @@ a {
   .section-2.card {
     border-radius: 50px;
   }
+
   .section-2.card .card-body p span {
     color: #ec5242;
   }
@@ -93,6 +106,7 @@ a {
     padding-top: 70px;
     padding-bottom: 70px;
   }
+
   .section-3 table tbody .custom-radio label {
     color: #ec5242;
   }
@@ -104,6 +118,7 @@ a {
   .section-5.card {
     border-radius: 50px;
   }
+
   .section-5.card .card-body p span {
     color: #ec5242;
   }
@@ -111,10 +126,9 @@ a {
   .section-6-and-7 .bg-orange {
     background: #ec5242;
   }
+
   .section-6-and-7 .select-lunch-btn {
     display: flex;
     justify-content: center;
   }
 }
-
-/*# sourceMappingURL=tickets-style.css.map */
