@@ -30,6 +30,10 @@ a {
 }
 
 @media only screen and (max-width: 767px) {
+  .navbar-3-links .link-6:hover {
+    background-color: #333333;
+  }
+
   .section-1 h3 {
     color: #ec5242;
     font-weight: bolder;
@@ -125,6 +129,10 @@ a {
 
   .navbar-3 .navbar-3-links .link-6 {
     border: 2.9px solid #ec5242;
+  }
+
+  .navbar-3-links .link-6:hover {
+    background-color: #333333;
   }
 
   .section-1 h1 {

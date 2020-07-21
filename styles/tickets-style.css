@@ -25,6 +25,10 @@ a {
 }
 
 @media only screen and (max-width: 320px){
+  .navbar-3-links .link-6:hover {
+    background-color: #333333;
+  }
+  
   .section-3-1 .section-3-1-1 {
     display: grid;
     grid-template-columns: repeat(5, 40px);
@@ -165,6 +169,10 @@ a {
 }
 
 @media only screen and (max-width: 375px){
+  .navbar-3-links .link-6:hover {
+    background-color: #333333;
+  }
+
   .section-3-1 .section-3-1-1 {
     display: grid;
     grid-template-columns: repeat(5, 60px);
@@ -305,6 +313,10 @@ a {
 }
 
 @media only screen and (max-width: 425px){
+  .navbar-3-links .link-6:hover {
+    background-color: #333333;
+  }
+
   .section-2.card {
     border-radius: 50px;
   }
@@ -453,6 +465,10 @@ a {
 }
 
 @media only screen and (min-width: 426px){
+  .navbar-3-links .link-6:hover {
+    background-color: #333333;
+  }
+
   .section-2.card {
     border-radius: 50px;
   }
@@ -625,6 +641,10 @@ a {
     border: 2.9px solid #ec5242;
   }
 
+  .navbar-3-links .link-6:hover {
+    background-color: #333333;
+  }
+
   .section-2.card {
     border-radius: 50px;
   }
@@ -772,6 +792,10 @@ a {
 }
 
 @media only screen and (min-width: 992px){
+  .navbar-3-links .link-6:hover {
+    background-color: #333333;
+  }
+
   .section-3-1 .section-3-1-1 {
     display: grid;
     grid-template-columns: repeat(5, 150px);
