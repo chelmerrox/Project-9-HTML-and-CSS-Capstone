@@ -4,7 +4,7 @@ This is a solo project where I had to replicate/clone the CC Global Summit 2015 
 
 ## Preview of CC Global Summit 2015 website
 
-![Website preview](images/website_preview.PNG)
+![Website preview](images/website_preview.png)
 
 ## Built With
 
