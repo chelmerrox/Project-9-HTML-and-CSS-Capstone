@@ -23,7 +23,7 @@ This is a solo project where I had to replicate/clone the CC Global Summit 2015 
 
 ## My Video Presentation for this Project
 
-<a href="https://www.loom.com/share/6c1e341293b44b44bd55ff3825564716">My Video Presentation</a>
+<a href="">My Video Presentation</a>
 
 ## Getting Started
 
