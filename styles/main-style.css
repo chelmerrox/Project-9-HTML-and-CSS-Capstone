@@ -114,8 +114,8 @@ a {
   .section-6 .google-logo,
   .section-6 .naver-logo,
   .section-6 .airbnb-logo {
-    width: 100px;
-    height: 100px;
+    width: 2500px;
+    height: 2500px;
   }
 
   footer .media-body {
@@ -379,5 +379,13 @@ a {
 
   .section-5 .section-5-1 .media-body .font-italic {
     color: #ec5242;
+  }
+
+  .section-6 .mozilla-logo,
+  .section-6 .google-logo,
+  .section-6 .naver-logo,
+  .section-6 .airbnb-logo {
+    width: 150px;
+    height: 150px;
   }
 }
