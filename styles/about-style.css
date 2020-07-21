@@ -31,7 +31,7 @@ a {
 
 @media only screen and (max-width: 767px) {
   .navbar-3-links .link-6:hover {
-    background-color: #333333;
+    background-color: #333;
   }
 
   .section-1 h3 {
@@ -132,7 +132,7 @@ a {
   }
 
   .navbar-3-links .link-6:hover {
-    background-color: #333333;
+    background-color: #333;
   }
 
   .section-1 h1 {

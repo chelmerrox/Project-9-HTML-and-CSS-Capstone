@@ -32,7 +32,7 @@ a {
 
 @media only screen and (max-width: 425px) {
   .navbar-3-links .link-6:hover {
-    background-color: #333333;
+    background-color: #333;
   }
 
   .section-1 {
@@ -107,13 +107,22 @@ a {
   }
 
   @keyframes pop-out {
-    0% {background-color: #666666;}
-    25% {background-color: #999999;
-          box-shadow: 12px 12px 5px #000000;}
-    75% {background-color: #aaa999;
-            box-shadow: 12px 12px 5px #000000;}
-    100% {background-color: #abb999;
-              box-shadow: 12px 12px 5px #000000;}
+    0% { background-color: #666; }
+
+    25% {
+      background-color: #999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    75% {
+      background-color: #aaa999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    100% {
+      background-color: #abb999;
+      box-shadow: 12px 12px 5px #000;
+    }
   }
 
   .section-4-1-1:hover,
@@ -150,7 +159,7 @@ a {
 
 @media only screen and (max-width: 767px) {
   .navbar-3-links .link-6:hover {
-    background-color: #333333;
+    background-color: #333;
   }
 
   .section-1 {
@@ -228,13 +237,22 @@ a {
   }
 
   @keyframes pop-out {
-    0% {background-color: #666666;}
-    25% {background-color: #999999;
-          box-shadow: 12px 12px 5px #000000;}
-    75% {background-color: #aaa999;
-            box-shadow: 12px 12px 5px #000000;}
-    100% {background-color: #abb999;
-              box-shadow: 12px 12px 5px #000000;}
+    0% { background-color: #666; }
+
+    25% {
+      background-color: #999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    75% {
+      background-color: #aaa999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    100% {
+      background-color: #abb999;
+      box-shadow: 12px 12px 5px #000;
+    }
   }
 
   .section-4-1-1:hover,
@@ -296,7 +314,7 @@ a {
   }
 
   .navbar-3-links .link-6:hover {
-    background-color: #333333;
+    background-color: #333;
   }
 
   .section-1 {
@@ -382,13 +400,22 @@ a {
   }
 
   @keyframes pop-out {
-    0% {background-color: #666666;}
-    25% {background-color: #999999;
-          box-shadow: 12px 12px 5px #000000;}
-    75% {background-color: #aaa999;
-            box-shadow: 12px 12px 5px #000000;}
-    100% {background-color: #abb999;
-              box-shadow: 12px 12px 5px #000000;}
+    0% { background-color: #666; }
+
+    25% {
+      background-color: #999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    75% {
+      background-color: #aaa999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    100% {
+      background-color: #abb999;
+      box-shadow: 12px 12px 5px #000;
+    }
   }
 
   .section-4-1-1:hover,
