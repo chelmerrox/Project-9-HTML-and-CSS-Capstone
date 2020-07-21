@@ -2,35 +2,9 @@
 
 This is a solo project where I had to replicate/clone the CC Global Summit 2015 website according to <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">these specifications.</a>
 
-## Preview of web page
+## Preview of CC Global Summit 2015 website
 
-### Mobile Screen
-
-#### Main Web Page (Home page)
-
-![Mobile preview](images/main_mobile.PNG)
-
-#### About Web Page 
-
-![Mobile preview](images/about_mobile.PNG)
-
-#### Tickets Web Page 
-
-![Mobile preview](images/tickets_mobile.PNG)
-
-### Tablet Screen, Laptop Screen and Extra Large Screen
-
-#### Main Web Page (Home page)
-
-![Tablet preview](images/main_tablet.PNG)
-
-#### About Web Page 
-
-![Tablet preview](images/about_tablet.PNG)
-
-#### Tickets Web Page 
-
-![Tablet preview](images/tickets_tablet.PNG)
+![Website preview](images/website_preview.PNG)
 
 ## Built With
 
