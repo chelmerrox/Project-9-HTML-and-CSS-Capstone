@@ -102,6 +102,27 @@ a {
     background-color: #ec5242;
   }
 
+  @keyframes pop-out {
+    0% {background-color: #666666;}
+    25% {background-color: #999999;
+          box-shadow: 12px 12px 5px #000000;}
+    75% {background-color: #aaa999;
+            box-shadow: 12px 12px 5px #000000;}
+    100% {background-color: #abb999;
+              box-shadow: 12px 12px 5px #000000;}
+  }
+
+  .section-4-1-1:hover,
+  .section-4-1-2:hover,
+  .section-4-1-3:hover,
+  .section-4-1-4:hover,
+  .section-4-1-5:hover {
+    width: 200px;
+    height: 200px;
+    animation-name: pop-out;
+    animation-duration: 4s;
+  }
+
   .section-5 img {
     box-shadow: -11px -5px black;
   }
@@ -196,6 +217,27 @@ a {
 
   .section-4 .btn {
     background-color: #ec5242;
+  }
+
+  @keyframes pop-out {
+    0% {background-color: #666666;}
+    25% {background-color: #999999;
+          box-shadow: 12px 12px 5px #000000;}
+    75% {background-color: #aaa999;
+            box-shadow: 12px 12px 5px #000000;}
+    100% {background-color: #abb999;
+              box-shadow: 12px 12px 5px #000000;}
+  }
+
+  .section-4-1-1:hover,
+  .section-4-1-2:hover,
+  .section-4-1-3:hover,
+  .section-4-1-4:hover,
+  .section-4-1-5:hover {
+    width: 200px;
+    height: 200px;
+    animation-name: pop-out;
+    animation-duration: 4s;
   }
 
   .section-5 img {
@@ -325,6 +367,27 @@ a {
 
   .section-4 a {
     text-decoration: underline;
+  }
+
+  @keyframes pop-out {
+    0% {background-color: #666666;}
+    25% {background-color: #999999;
+          box-shadow: 12px 12px 5px #000000;}
+    75% {background-color: #aaa999;
+            box-shadow: 12px 12px 5px #000000;}
+    100% {background-color: #abb999;
+              box-shadow: 12px 12px 5px #000000;}
+  }
+
+  .section-4-1-1:hover,
+  .section-4-1-2:hover,
+  .section-4-1-3:hover,
+  .section-4-1-4:hover,
+  .section-4-1-5:hover {
+    width: 200px;
+    height: 200px;
+    animation-name: pop-out;
+    animation-duration: 4s;
   }
 
   .section-5 {
