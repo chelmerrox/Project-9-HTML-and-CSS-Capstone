@@ -1108,6 +1108,7 @@ a {
     display: flex;
     flex-direction: column;
     align-content: center;
+    align-items: center;
   }
 
   .grid-3-11 label,
@@ -1120,4 +1121,17 @@ a {
   .grid-3-19 label {
     color: #ec5242;
   }
+
+  .grid-3-11 input,
+  .grid-3-12 input,
+  .grid-3-13 input,
+  .grid-3-14 input,
+  .grid-3-16 input,
+  .grid-3-17 input,
+  .grid-3-18 input,
+  .grid-3-19 input {
+    margin-bottom: 20px;
+  }
+
+  
 }
