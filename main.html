@@ -8,13 +8,479 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link href="styles/main-style.css" type="text/css" rel="stylesheet"/>
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+      <!--Link to Lato font-family from Google Web Fonts according to specifications-->
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
       <title>CC Global Summit 2015</title>
     </head>
 
     <body>
-      
+      <!--Navbar 1 for extra small and mobile screen sizes-->
+      <nav class="navbar-1 navbar d-md-none d-lg-none d-xl-none pt-4">
+        <i class="material-icons menu-icon text-muted">menu</i>
+      </nav>
 
+      <!--Navbar 2 for tablet, laptop & extra large screen sizes-->
+      <nav class="navbar-2 navbar d-none d-sm-none d-md-flex d-lg-flex d-xl-flex justify-content-md-end justify-content-lg-end justify-content-xl-end bg-dark p-3">
+        <!--Facebook logo-->
+        <svg class="facebook-logo mr-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	     viewBox="0 0 96.124 96.123" style="enable-background:new 0 0 96.124 96.123;"
+	     xml:space="preserve">
+          <g>
+	        <path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+	    	c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+		    c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+		    c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+         </g>
+        </svg>
 
+        <!--Twitter icon-->
+        <svg class="twitter-logo ml-1 mr-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+         <g>
+           <g>
+            <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+              c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+              c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+              c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+              c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+              c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+              C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+              C480.224,136.96,497.728,118.496,512,97.248z"/>
+           </g>
+         </g>
+        </svg>
+
+        <a href="#" class="text-capitalize text-white font-weight-bold small mr-2">english</a>
+        <a href="#" class="text-capitalize text-white font-weight-bold small mr-2">my page</a>
+        <a href="#" class="text-capitalize text-white font-weight-bold small mr-5 pr-5">logout</a>
+      </nav>
+
+      <!--Navbar 3 for tablet, laptop & extra large screen sizes-->
+      <nav class="navbar-3 navbar sticky-top d-none d-sm-none d-md-flex d-lg-flex d-xl-flex justify-content-md-around justify-content-lg-around justify-content-xl-around p-3 bg-white">
+        <a href="main.html">
+          <img src="images/navbar-3-logo.PNG" alt="CC Global Summit 2015 logo" class="navbar-3-logo">
+        </a>
+
+        <div class="navbar-3-links">
+          <a href="about.html" class="text-capitalize link-1 mr-5">about</a>
+          <a href="#" class="text-capitalize text-muted mr-5">program</a>
+          <a href="tickets.html" class="text-capitalize text-muted mr-5">join</a>
+          <a href="#" class="text-capitalize text-muted mr-5">sponsor</a>
+          <a href="#" class="text-capitalize text-muted mr-5">news</a>
+          <a href="#" class="text-capitalize btn link-6">cC campaign</a>
+        </div>
+      </nav>
+
+      <main class="container-fluid">
+        <!--Section 1 for extra small & mobile screen sizes-->
+        <section class="row d-flex d-sm-flex d-md-none d-lg-none d-xl-none section-1 mt-3">
+          <h3 class="text-left col-12 col-sm-12 font-weight-bold">"Hello! Sharing world"</h3>
+          <h1 class="text-left col-12 col-sm-12 display-4 text-uppercase font-weight-bold">creative commons global summit 2015</h1>
+        </section>
+
+        <!--Section 1 for tablet, laptop & extra large screen sizes-->
+        <section class="row d-none d-sm-none d-md-flex d-lg-flex d-xl-flex section-1 mt-3">
+          <h3 class="text-left col-md-12 col-lg-12 col-xl-12 font-weight-bold">"Hello! Sharing world"</h3>
+          <h1 class="text-left col-md-12 col-lg-12 col-xl-12 display-4 text-uppercase font-weight-bold">creative commons global summit 2015</h1>
+        </section>
+
+        <!--Section 2 for all screen sizes-->
+        <div class="row mt-2 ml-3 ml-md-5 ml-lg-5 ml-xl-5 p-3 card border-0 section-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 card-body">
+             <p>A joyful celebration believing in the value of openness and sharing, creating a positive change with people
+                 from over 80 countries is taking place in October, in Korea.
+             </p>
+          </div>
+        </div>
+
+        <!--Section 3 for all screen sizes-->
+        <section class="row ml-3 ml-sm-3 ml-md-5 ml-lg-5 ml-xl-5 pb-3 section-3">
+          <h3 class="col-12 col-sm-12 col-lg-12 col-xl-12 font-weight-bold">2015.10.15(THU) ~ 16(FRI)</h3>
+          <p>@ National Museum of Korea, Art Center Nabu and more</p>
+        </section>
+
+        <!--Section 4 for all screen sizes-->
+        <section class="row bg-dark section-4 p-4">
+          <h5 class="col-12 col-sm-12 text-capitalize text-white font-weight-bold text-center my-3">main program</h5>
+
+          <!--Lecture section-->
+          <div class="col-12 col-sm-12 col-md-2 section-4-1-flex-sm-items mt-2 p-3 mr-md-1 mr-lg-1 mr-xl-1 section-4-1-1">
+            <!--Lecture icon-->
+            <svg class="item-1-1 mx-md-5" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <path fill="#ffffff" d="m497 273h-18v-49c0-2.719-.739-5.387-2.138-7.718l-25.101-41.834c7-8.209 11.239-18.84 11.239-30.448 0-25.916-21.084-47-47-47s-47 21.084-47 47c0 29.876 27.68 52.333 57.051 45.907l22.949 38.248v44.845h-98v-49c0-38.123-17.407-77.601-49.26-97.756 15.433-13.034 25.26-32.509 25.26-54.244 0-39.383-31.893-72-71-72-39.067 0-71 32.582-71 72 0 21.735 9.827 41.21 25.26 54.244-31.861 20.16-49.26 59.646-49.26 97.756v49h-98v-44.845l22.949-38.249c29.41 6.435 57.051-16.082 57.051-45.906 0-25.916-21.084-47-47-47s-47 21.084-47 47c0 11.608 4.239 22.239 11.239 30.448l-25.101 41.834c-1.399 2.331-2.138 4.999-2.138 7.718v49h-18c-8.284 0-15 6.716-15 15v80c0 8.284 6.716 15 15 15h50v114c0 8.284 6.716 15 15 15s15-6.716 15-15v-114h322v114c0 8.284 6.716 15 15 15s15-6.716 15-15v-114h50c8.284 0 15-6.716 15-15v-80c0-8.284-6.716-15-15-15zm-98-129c0-9.374 7.626-17 17-17s17 7.626 17 17-7.626 17-17 17-17-7.626-17-17zm-303-17c9.374 0 17 7.626 17 17s-7.626 17-17 17-17-7.626-17-17 7.626-17 17-17zm119-55c0-22.767 18.775-42 41-42s41 19.233 41 42c0 22.607-18.393 41-41 41s-41-18.393-41-41zm-24 152c0-39.816 24.313-81 65-81s65 41.184 65 81v49h-130zm291 129h-452v-50h452z"/>
+                <path fill="#ec5242" d="m320 433h-128c-8.284 0-15 6.716-15 15s6.716 15 15 15h128c8.284 0 15-6.716 15-15s-6.716-15-15-15z"/>
+              </g>
+            </svg>
+
+            <p class="item-2 text-capitalize font-weight-bold mr-3  text-md-center text-lg-center text-xl-center">lecture</p>
+           
+            <div class="item-3">
+              <p class="text-white text-md-center text-lg-center text-xl-center">Listen to the speakers from various countries about the messages of sharing and opening.</p>
+            </div>
+          </div>
+
+          <!--CC Exhibition section-->
+          <div class="col-12 col-sm-12 col-md-2 section-4-1-flex-sm-items mt-2 p-3 mr-md-1 mr-lg-1 mr-xl-1 section-4-1-2">
+            <!--Exhibition icon-->
+            <svg class="item-1-2 mx-md-5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            viewBox="0 0 464 464" style="enable-background:new 0 0 464 464;" xml:space="preserve">
+              <g>
+                <g>
+                  <path d="M440,1.5H24c-13.255,0-24,10.745-24,24s10.745,24,24,24v328c0,4.418,3.582,8,8,8h95.352l-53.6,67l12.496,10l61.6-77H224
+                    v17.472c-12.497,4.418-19.046,18.131-14.627,30.627c4.418,12.497,18.131,19.046,30.627,14.627s19.046-18.131,14.627-30.627
+                    c-2.416-6.835-7.793-12.211-14.627-14.627V385.5h76.152l61.6,77l12.496-10l-53.6-67H432c4.418,0,8-3.582,8-8v-328
+                    c13.255,0,24-10.745,24-24S453.255,1.5,440,1.5z M232,433.5c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8
+                    S236.418,433.5,232,433.5z M424,369.5H40v-320h384V369.5z M440,33.5H24c-4.418,0-8-3.582-8-8s3.582-8,8-8h416c4.418,0,8,3.582,8,8
+                    S444.418,33.5,440,33.5z" fill="#ffffff"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <rect x="72" y="257.5" width="128" height="16" fill="#ffffff"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <rect x="72" y="289.5" width="128" height="16" fill="#ec5242"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <rect x="72" y="321.5" width="96" height="16" fill="#ec5242"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <rect x="136" y="225.5" width="64" height="16" fill="#ffffff"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <rect x="264" y="113.5" width="128" height="16" fill="#ec5242"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <rect x="264" y="145.5" width="128" height="16" fill="#ffffff"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <rect x="264" y="177.5" width="96" height="16" fill="#ffffff"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <rect x="328" y="81.5" width="64" height="16" fill="#ffffff"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <path d="M136,73.5c-35.346,0-64,28.654-64,64c0.04,35.33,28.67,63.96,64,64c35.346,0,64-28.654,64-64
+                    C200,102.154,171.346,73.5,136,73.5z M144.24,90.268c12.218,2.138,23.131,8.929,30.448,18.944L144,124.54L144.24,90.268z
+                    M108.337,98.354c5.946-4.193,12.769-6.974,19.951-8.135L128,134.3l-31.2,30.776C81.561,143.465,86.726,113.593,108.337,98.354z
+                    M149.994,183.411c-4.536,1.384-9.251,2.088-13.994,2.089c-10.059,0.001-19.86-3.18-28-9.088l32.864-32.4l41.032-20.52
+                    C189.632,148.848,175.349,175.674,149.994,183.411z" fill="#ffffff"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <rect x="248" y="297.5" width="16" height="40" fill="#ffffff"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <rect x="376" y="281.5" width="16" height="56" fill="#ffffff"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <rect x="280" y="273.5" width="16" height="64" fill="#ffffff"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <rect x="312" y="241.5" width="16" height="96" fill="#ffffff"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <rect x="344" y="265.5" width="16" height="72" fill="#ffffff"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <rect x="104" y="225.5" width="16" height="16" fill="#ffffff"/>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <rect x="296" y="81.5" width="16" height="16" fill="#ffffff"/>
+                </g>
+              </g>
+            </svg>
+
+            <p class="item-2 text-capitalize font-weight-bold mx-2 text-md-center text-lg-center text-xl-center">cC exhibition</p>
+            
+            <div class="item-3">
+              <p class="text-white text-md-center text-lg-center text-xl-center">Appreciate various creations applying CC license of artists, organized from Art Center Nabi</p>
+            </div>
+          </div>
+
+          <!--Forum section-->
+          <div class="col-12 col-sm-12 col-md-2 section-4-1-flex-sm-items mt-2 p-3 mr-md-1 mr-lg-1 mr-xl-1 section-4-1-3">
+            <!--Forum icon-->
+            <svg class="item-1-3 mx-md-5" enable-background="new 0 0 512.002 512.002" viewBox="0 0 512.002 512.002" xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <path fill="#ffffff" d="m505.388 149.999-18.652-18.652v-75.347c0-16.542-13.458-29.999-30-29.999h-220c-16.542 0-30 13.457-30 29.999v150h-151.47c-16.542 0-30 13.458-30 30v75.345l-18.651 18.652c-4.266 4.264-6.615 9.948-6.615 16.003s2.349 11.738 6.614 16.004l18.652 18.652v75.345c0 16.542 13.458 29.999 30 29.999h220c16.542 0 30-13.457 30-29.999v-150h151.469c16.542 0 30-13.458 30-30v-75.345l18.652-18.651c4.265-4.266 6.614-9.948 6.614-16.004s-2.348-11.739-6.613-16.002zm-220.121 306.002c0 5.514-4.486 9.999-10 9.999h-220c-5.514 0-10-4.485-10-9.999v-79.487c0-2.652-1.054-5.195-2.929-7.071l-21.581-21.581c-.658-.657-.757-1.448-.757-1.862 0-.412.098-1.203.756-1.86l21.581-21.581c1.875-1.876 2.929-4.419 2.929-7.071v-79.488c0-5.514 4.486-10 10-10h151.469v50.001c0 16.542 13.458 30 30 30h48.531v150zm205.979-288.138-21.581 21.58c-1.875 1.875-2.929 4.419-2.929 7.071v79.487c0 5.514-4.486 10-10 10h-220c-5.514 0-10-4.486-10-10v-220.001c0-5.514 4.486-9.999 10-9.999h220c5.514 0 10 4.485 10 9.999v79.487c0 2.652 1.053 5.195 2.929 7.071l21.582 21.583c.657.656.755 1.447.755 1.859-.001.415-.099 1.206-.756 1.863z"/>
+                <path fill="#ffffff" d="m416.734 76.001h-139.997c-5.523 0-10 4.478-10 10s4.477 10 10 10h139.997c5.523 0 10-4.478 10-10s-4.477-10-10-10z"/>
+                <path fill="#ec5242" d="m416.734 116.001h-139.997c-5.523 0-10 4.478-10 10s4.477 10 10 10h139.997c5.523 0 10-4.478 10-10s-4.477-10-10-10z"/>
+                <path fill="#ffffff" d="m416.734 156.001h-139.997c-5.523 0-10 4.478-10 10s4.477 10 10 10h139.997c5.523 0 10-4.478 10-10s-4.477-10-10-10z"/>
+                <path fill="#ec5242" d="m416.734 196.001h-69.999c-5.523 0-10 4.478-10 10s4.477 10 10 10h69.999c5.523 0 10-4.478 10-10s-4.477-10-10-10z"/>
+                <path fill="#ffffff" d="m416.734 236.001h-69.999c-5.523 0-10 4.478-10 10s4.477 10 10 10h69.999c5.523 0 10-4.478 10-10s-4.477-10-10-10z"/>
+                <path fill="#ec5242" d="m95.268 276h69.999c5.523 0 10-4.478 10-10s-4.477-10-10-10h-69.999c-5.523 0-10 4.478-10 10s4.477 10 10 10z"/>
+                <path fill="#ffffff" d="m95.268 316h69.999c5.523 0 10-4.478 10-10s-4.477-10-10-10h-69.999c-5.523 0-10 4.478-10 10s4.477 10 10 10z"/>
+                <path fill="#ec5242" d="m95.268 336c-5.523 0-10 4.478-10 10s4.477 10 10 10h139.997c5.523 0 10-4.478 10-10s-4.477-10-10-10z"/>
+                <path fill="#ffffff" d="m235.265 376h-139.997c-5.523 0-10 4.478-10 10s4.477 10 10 10h139.997c5.523 0 10-4.478 10-10s-4.477-10-10-10z"/>
+                <path fill="#ffffff" d="m235.265 416h-139.997c-5.523 0-10 4.478-10 10s4.477 10 10 10h139.997c5.523 0 10-4.478 10-10s-4.477-10-10-10z"/>
+              </g>
+            </svg>
+            
+            <p class="item-2 text-capitalize font-weight-bold mr-3 text-md-center text-lg-center text-xl-center">forum</p>
+           
+            <div class="item-3">
+              <p class="text-white text-md-center text-lg-center text-xl-center">Have the time to share your thoughts and opinions with experts for each topic.</p>
+            </div>
+          </div>
+
+          <!--Workshop section-->
+          <div class="col-12 col-sm-12 col-md-2 section-4-1-flex-sm-items mt-2 p-3 mr-md-1 mr-lg-1 mr-xl-1 section-4-1-4">
+            <!--Workshop ixon-->
+            <svg class="item-1-3 mx-md-5" id="light" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path fill="#ffffff" d="m22.5 18h-21c-.827 0-1.5-.673-1.5-1.5v-13c0-.827.673-1.5 1.5-1.5h21c.827 0 1.5.673 1.5 1.5v13c0 .827-.673 1.5-1.5 1.5zm-21-15c-.276 0-.5.224-.5.5v13c0 .276.224.5.5.5h21c.276 0 .5-.224.5-.5v-13c0-.276-.224-.5-.5-.5z"/>
+              <path fill="#ffffff" d="m12 3c-.276 0-.5-.224-.5-.5v-2c0-.276.224-.5.5-.5s.5.224.5.5v2c0 .276-.224.5-.5.5z"/>
+              <path fill="#ffffff" d="m12 24c-.276 0-.5-.224-.5-.5v-6c0-.276.224-.5.5-.5s.5.224.5.5v6c0 .276-.224.5-.5.5z"/>
+              <path fill="#ffffff" d="m16.5 24c-.095 0-.191-.027-.277-.084l-4.5-3c-.23-.153-.292-.463-.139-.693.152-.23.462-.292.693-.139l4.5 3c.23.153.292.463.139.693-.096.145-.255.223-.416.223z"/>
+              <path fill="#ffffff" d="m7.5 24c-.162 0-.32-.078-.417-.223-.153-.23-.091-.54.139-.693l4.5-3c.229-.153.54-.092.693.139.153.23.091.54-.139.693l-4.5 3c-.084.057-.18.084-.276.084z"/>
+              <path fill="#ec5242" d="m7.5 14c-.128 0-.256-.049-.354-.146-.195-.195-.195-.512 0-.707l3.5-3.5c.152-.153.385-.19.577-.094l1.678.839 3.245-3.245c.195-.195.512-.195.707 0s.195.512 0 .707l-3.5 3.5c-.153.152-.385.188-.577.094l-1.678-.839-3.245 3.245c-.097.097-.225.146-.353.146z"/>
+              <path fill="#ec5242" d="m16.5 11c-.276 0-.5-.224-.5-.5v-2.5h-2.5c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h3c.276 0 .5.224.5.5v3c0 .276-.224.5-.5.5z"/>
+            </svg>
+
+            <p class="item-2 text-capitalize font-weight-bold mt-4 mx-2 text-md-center text-lg-center text-xl-center">workshop</p>
+            
+            <div class="item-3">
+              <p class="text-white text-md-center text-lg-center text-xl-center">Try creating your own work using open source license rather than just watching at it.</p>
+            </div>
+          </div>
+
+          <!--CC Ignite section-->
+          <div class="col-12 col-sm-12 col-md-2 section-4-1-flex-sm-items mt-2 p-3 mr-md-1 mr-lg-1 mr-xl-1 section-4-1-5">
+            <!--CC Ignite Logo/WHeel Logo-->
+            <svg class="item-1-5 mx-md-5" enable-background="new 0 0 511.483 511.483" viewBox="0 0 511.483 511.483" xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <g id="LINES_32_" fill="#ffffff">
+                  <path fill="#ec5242" d="m255.742 226.483c-1.881 0-3.763.181-5.594.536l2.859 14.725c.892-.173 1.812-.261 2.734-.261 7.861 0 14.257 6.396 14.257 14.259 0 7.861-6.396 14.258-14.257 14.258s-14.258-6.396-14.258-14.258c0-3.351 1.124-6.485 3.251-9.064l-11.572-9.543c-4.307 5.222-6.679 11.83-6.679 18.607 0 16.133 13.125 29.258 29.258 29.258 16.132 0 29.257-13.125 29.257-29.258.001-16.134-13.124-29.259-29.256-29.259z"/>
+                  <path d="m501.88 235.204c-6.104-5.099-14.094-7.211-21.92-5.799l-36.635 6.622v12.215h-6.243c-1.814-44.399-19.646-84.734-47.865-115.369l4.47-4.47 8.637 8.637 30.586-21.224c6.535-4.534 10.69-11.679 11.399-19.601.71-7.921-2.107-15.688-7.73-21.312-5.624-5.623-13.396-8.441-21.313-7.731-7.922.71-15.065 4.865-19.6 11.399l-21.224 30.586 8.637 8.637-4.469 4.469c-30.634-28.224-70.968-46.059-115.368-47.873v-6.234h12.214l6.622-36.635c1.414-7.827-.699-15.816-5.799-21.92s-12.585-9.601-20.537-9.601c-7.953 0-15.438 3.5-20.538 9.604s-7.213 14.093-5.799 21.92l6.622 36.635h12.215v6.24c-13.176.541-26.23 2.485-38.901 5.839l-.299.079 3.838 14.5.299-.079c13.82-3.657 28.141-5.512 42.563-5.512 91.812 0 166.507 74.698 166.507 166.516s-74.694 166.517-166.507 166.517-166.508-74.7-166.508-166.518c0-54.523 26.854-105.706 71.836-136.912 3.921-2.72 8.002-5.3 12.131-7.666l-7.461-13.014c-4.5 2.58-8.948 5.392-13.221 8.355-6.96 4.828-13.506 10.11-19.642 15.765l-4.473-4.473 8.637-8.637-21.224-30.586c-4.534-6.534-11.678-10.689-19.6-11.399-7.911-.71-15.689 2.107-21.313 7.731-5.623 5.623-8.44 13.392-7.73 21.312.71 7.922 4.865 15.065 11.399 19.6l30.586 21.224 8.637-8.637 4.474 4.474c-28.885 31.391-46.07 72.197-47.861 115.364h-6.251v-12.215l-36.635-6.622c-7.827-1.415-15.815.699-21.92 5.799-6.103 5.1-9.603 12.585-9.603 20.538 0 7.952 3.5 15.438 9.604 20.537 4.86 4.061 10.917 6.229 17.135 6.229 1.591 0 3.191-.143 4.785-.43l36.635-6.622v-12.214h6.243c1.814 44.399 19.646 84.733 47.865 115.368l-4.47 4.47-8.637-8.637-30.586 21.224c-6.534 4.534-10.689 11.678-11.399 19.599-.71 7.922 2.107 15.69 7.73 21.314 5.053 5.052 11.834 7.839 18.903 7.839.8 0 1.604-.036 2.41-.108 7.921-.71 15.065-4.864 19.6-11.399l21.224-30.586-8.637-8.637 4.469-4.469c30.634 28.224 70.969 46.059 115.369 47.873v6.234h-12.215l-6.622 36.636c-1.414 7.826.699 15.815 5.799 21.919 5.099 6.104 12.585 9.604 20.538 9.604 7.952 0 15.438-3.5 20.537-9.604 5.1-6.104 7.213-14.093 5.799-21.919l-6.622-36.636h-12.214v-6.234c44.4-1.814 84.735-19.649 115.368-47.873l4.469 4.469-8.637 8.637 21.224 30.586c4.534 6.535 11.679 10.689 19.6 11.399.806.072 1.609.108 2.41.108 7.069 0 13.852-2.788 18.903-7.839 5.623-5.624 8.44-13.392 7.73-21.313s-4.864-15.065-11.399-19.6l-30.586-21.224-8.637 8.637-4.47-4.47c28.219-30.634 46.05-70.969 47.865-115.368h6.243v12.214l36.635 6.622c1.595.288 3.194.43 4.785.43 6.218 0 12.274-2.168 17.135-6.229 6.104-5.1 9.604-12.585 9.604-20.537-.002-7.953-3.502-15.438-9.605-20.538zm-93.89-148.08c1.992-2.872 5.133-4.698 8.614-5.01 3.474-.32 6.896.927 9.368 3.398 2.471 2.471 3.709 5.884 3.397 9.365-.312 3.482-2.139 6.622-5.011 8.615l-20.291 14.079-10.157-10.157zm-159.431-33.966-4.392-24.303c-.622-3.439.307-6.951 2.549-9.634 2.241-2.683 5.531-4.222 9.026-4.222s6.784 1.538 9.025 4.221c2.242 2.684 3.171 6.195 2.549 9.635l-4.392 24.303zm-141.144 64.414-20.291-14.079c-2.872-1.992-4.698-5.133-5.01-8.614s.926-6.896 3.397-9.366c2.22-2.221 5.201-3.446 8.309-3.446.352 0 .705.016 1.059.048 3.481.312 6.622 2.138 8.614 5.01l14.079 20.291zm-54.257 145.353-24.303 4.392c-3.439.621-6.951-.307-9.635-2.549-2.683-2.24-4.221-5.53-4.221-9.025s1.538-6.786 4.221-9.027c2.137-1.784 4.799-2.737 7.532-2.737.698 0 1.402.062 2.103.189l24.303 4.392zm50.335 161.434c-1.993 2.872-5.133 4.698-8.615 5.011-3.478.313-6.896-.927-9.366-3.397-2.472-2.472-3.71-5.887-3.397-9.368.312-3.481 2.138-6.622 5.01-8.614l20.291-14.079 10.157 10.157zm163.823 58.27c.622 3.439-.307 6.951-2.548 9.634s-5.531 4.221-9.026 4.221-6.786-1.538-9.027-4.221-3.17-6.194-2.548-9.634l4.392-24.304h14.366zm136.752-88.718 20.291 14.079c2.872 1.993 4.698 5.133 5.011 8.615.312 3.481-.927 6.896-3.398 9.366-2.471 2.472-5.887 3.701-9.366 3.398-3.482-.312-6.622-2.139-8.615-5.011l-14.079-20.291zm88.195-129.143c-2.683 2.241-6.192 3.173-9.635 2.549l-24.303-4.392v-14.366l24.303-4.392c3.435-.624 6.951.307 9.635 2.548 2.683 2.241 4.221 5.532 4.221 9.027s-1.539 6.785-4.221 9.026z"/>
+                  <path d="m391.393 255.741c0-74.339-60.853-134.817-135.65-134.817-74.799 0-135.651 60.479-135.651 134.817s60.851 134.819 135.65 134.819c8.527 0 17.066-.796 25.377-2.365v-.001c2.596-.49 5.206-1.063 7.758-1.702l-3.646-14.551c-2.267.568-4.586 1.077-6.895 1.513v.001c-4.96.937-10.013 1.557-15.094 1.868v-57.466c11.645-1.398 22.311-6.003 31.095-12.91l40.871 40.873c-2.008 1.744-4.074 3.437-6.213 5.066l-.001.001c-1.859 1.416-3.79 2.8-5.74 4.112l8.375 12.443c2.192-1.476 4.363-3.03 6.454-4.622 33.879-25.792 53.31-64.82 53.31-107.079zm-15.244-7.5-58.296.001c-1.398-11.646-6.003-22.312-12.909-31.098l40.943-40.946c17.398 19.425 28.54 44.486 30.262 72.043zm-112.907-112.079c27.472 1.682 52.484 12.531 71.966 29.502l-40.87 40.873c-8.785-6.907-19.451-11.512-31.096-12.91zm-15 0v57.465c-11.645 1.398-22.311 6.004-31.096 12.91l-40.871-40.873c19.482-16.971 44.495-27.82 71.967-29.502zm-82.645 40.037 40.943 40.945c-6.906 8.785-11.512 19.452-12.91 31.098l-58.296-.001c1.723-27.556 12.864-52.617 30.263-72.042zm-30.263 87.042 58.296.001c1.398 11.646 6.004 22.312 12.91 31.098l-40.943 40.945c-17.398-19.425-28.54-44.486-30.263-72.044zm112.908 112.08c-27.472-1.682-52.484-12.531-71.967-29.502l40.871-40.873c8.785 6.906 19.451 11.512 31.095 12.91v57.465zm7.5-72c-26.234 0-47.577-21.344-47.577-47.579s21.343-47.58 47.577-47.58c26.233 0 47.576 21.345 47.576 47.58s-21.342 47.579-47.576 47.579zm49.202-8.982c6.906-8.785 11.511-19.452 12.91-31.097l58.302-.001c-1.668 26.991-12.321 52.149-30.245 72.067z"/>
+                  <path d="m303.835 381.809c4.869-1.84 9.685-3.986 14.313-6.38l-6.889-13.324c-4.116 2.128-8.398 4.037-12.728 5.673z"/>
+                  <path d="m199.21 99.105-5.109-14.104c-4.887 1.771-9.753 3.775-14.465 5.96l6.309 13.609c4.321-2.003 8.784-3.841 13.265-5.465z"/>
+                </g>
+              </g>
+            </svg>
+            
+            <p class="item-2 text-capitalize font-weight-bold mx-2 text-md-center text-lg-center text-xl-center">cC ignite</p>
+            
+            <div class="item-3">
+              <p class="text-white text-md-center text-lg-center text-xl-center">Get opportunities to network with CC affiliates around the world, also after the summit.</p>
+            </div>
+          </div>
+
+          <!--Join CC Global Summit 2015 button; Links to Tickets web page-->
+          <div class="my-3 col-12 col-sm-12 d-flex d-sm-flex justify-content-center justify-content-sm-center d-md-none d-lg-none d-xl-none">
+            <a href="tickets.html" class="btn text-white text-capitalize font-weight-bold p-3">join cC global summit 2015</a>
+          </div>
+
+          <!--See the whole program link-->
+          <a href="#" class="col-md-12 col-lg-12 col-xl-12 text-uppercase text-white font-weight-bold small d-none d-sm-none d-md-flex d-lg-flex d-xl-flex justify-content-md-center justify-content-lg-center justify-content-xl-center mt-md-3 mt-lg-3 mt-xl-3">see the whole program</a>
+        </section>
+
+        <!--Section 5 for all screen sizes-->
+        <section class="row section-5">
+          <h5 class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-capitalize font-weight-bold text-center my-4">featured speakers</h5>
+
+          <div class="section-5-1 my-md-4 my-lg-4 my-xl-4">
+            <div class="media col-12 col-sm-12 d-flex d-sm-flex d-md-none d-lg-none d-xl-none">
+                <img src="images/image-6.PNG" alt="Yochai Benkler" class="mr-3"/>
+                <div class="media-body">
+                  <h6 class="text-capitalize">yochai benkler</h6>
+                  <p class="text-1 font-italic">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+                  <p class="small">Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</p>
+                </div>
+            </div>
+
+            <div class="media d-none d-sm-none d-md-flex d-lg-flex d-xl-flex grid-5-1">
+                <img src="images/image-6.PNG" alt="Yochai Benkler" class="mr-3"/>
+                <div class="media-body">
+                  <h6 class="text-capitalize">yochai benkler</h6>
+                  <p class="text-1 font-italic">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+                  <p class="small">Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</p>
+                </div>
+            </div>
+
+            <div class="media col-12 col-sm-12 d-flex d-sm-flex d-md-none d-lg-none d-xl-none">
+                <img src="images/image-7.PNG" alt="SohYeong Noh" class="mr-3"/>
+                <div class="media-body">
+                  <h6 class="text-capitalize">sohYeong noh</h6>
+                  <p class="text-1 font-italic">Director of Art Centre Nabi and a board memner of CC Korea</p>
+                  <p class="small">As the main venue for new media art production in Korea, Nabi promotes cross-discplinary collboration and understanding among science technology, humanities, and the arts.</p>
+                </div>
+            </div>
+
+            <div class="media d-none d-sm-none d-md-flex d-lg-flex d-xl-flex grid-5-2">
+                <img src="images/image-7.PNG" alt="SohYeong Noh" class="mr-3"/>
+                <div class="media-body">
+                  <h6 class="text-capitalize">sohYeong noh</h6>
+                  <p class="text-1 font-italic">Director of Art Centre Nabi and a board memner of CC Korea</p>
+                  <p class="small">As the main venue for new media art production in Korea, Nabi promotes cross-discplinary collboration and understanding among science technology, humanities, and the arts.</p>
+                </div>
+            </div>
+
+            <div class="media col-12 col-sm-12 d-flex d-sm-flex d-md-none d-lg-none d-xl-none">
+                <img src="images/image-8.PNG" alt="Lila Tretikov" class="mr-3"/>
+                <div class="media-body">
+                  <h6 class="text-capitalize">Lila Tretikov</h6>
+                  <p class="text-1 font-italic">Executive Director of the Wikimedia Foundation</p>
+                  <p class="small">Lila Tretikov is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia, Wikipedia is freely available in 290 languages and used by
+                    nearly half a billion people around the world every month.
+                  </p>
+                </div>
+            </div>
+
+            <div class="media d-none d-sm-none d-md-flex d-lg-flex d-xl-flex grid-5-3">
+                <img src="images/image-8.PNG" alt="Lila Tretikov" class="mr-3"/>
+                <div class="media-body">
+                  <h6 class="text-capitalize">Lila Tretikov</h6>
+                  <p class="text-1 font-italic">Executive Director of the Wikimedia Foundation</p>
+                  <p class="small">Lila Tretikov is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia, Wikipedia is freely available in 290 languages and used by
+                    nearly half a billion people around the world every month.
+                  </p>
+                </div>
+            </div>
+
+            <div class="media col-12 col-sm-12 d-flex d-sm-flex d-md-none d-lg-none d-xl-none">
+                <img src="images/image-9.PNG" alt="Kilnam Chon" class="mr-3"/>
+                <div class="media-body">
+                  <h6 class="text-capitalize">kilnam chon</h6>          
+                  <p class="small">Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital commons. In 2012, he wasinducted into the inaugral dass of the internet
+                    Society's (ISOC) Internet Hall of Fame
+                  </p>
+                </div>
+            </div>
+
+            <div class="media d-none d-sm-none d-md-flex d-lg-flex d-xl-flex grid-5-4">
+                <img src="images/image-9.PNG" alt="Kilnam Chon" class="mr-3"/>
+                <div class="media-body">
+                  <h6 class="text-capitalize">kilnam chon</h6>          
+                  <p class="small">Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital commons. In 2012, he wasinducted into the inaugral dass of the internet
+                    Society's (ISOC) Internet Hall of Fame
+                  </p>
+                </div>
+            </div>
+
+            <div class="media col-12 col-sm-12 d-flex d-sm-flex d-md-none d-lg-none d-xl-none">
+                <img src="images/image-10.PNG" alt="Julie Leda" class="mr-3"/>
+                <div class="media-body">
+                  <h6 class="text-capitalize">julie leda</h6>
+                  <p class="text-1 font-italic">President of Young Pirates of Europe</p>
+                  <p class="small">European ingetration, political democracy and participation of youth through online as her major condemn, Reda's report outlining potential changes to EU copyright laws was 
+                    approved by the Parliament in July.</p>
+                </div>
+            </div>
+
+            <div class="media d-none d-sm-none d-md-flex d-lg-flex d-xl-flex grid-5-5">
+                <img src="images/image-10.PNG" alt="Julie Leda" class="mr-3"/>
+                <div class="media-body">
+                  <h6 class="text-capitalize">julie leda</h6>
+                  <p class="text-1 font-italic">President of Young Pirates of Europe</p>
+                  <p class="small">European ingetration, political democracy and participation of youth through online as her major condemn, Reda's report outlining potential changes to EU copyright laws was 
+                    approved by the Parliament in July.</p>
+                </div>
+            </div>
+
+            <div class="media col-12 col-sm-12 d-flex d-sm-flex d-md-none d-lg-none d-xl-none">
+                <img src="images/image-11.PNG" alt="Ryan Merkley" class="mr-3"/>
+                <div class="media-body">
+                  <h6 class="text-capitalize">ryan merkley</h6>
+                  <p class="text-1 font-italic">CEO of Creative Commons, ex COO of the Mozilla Foundation</p>
+                  <p class="small">Ryan had been leading open-source projects at the Mozilla Foundation such as the open source movement.</p>
+                </div>
+            </div>
+
+            <div class="media d-none d-sm-none d-md-flex d-lg-flex d-xl-flex grid-5-6">
+                <img src="images/image-11.PNG" alt="Ryan Merkley" class="mr-3"/>
+                <div class="media-body">
+                  <h6 class="text-capitalize">ryan merkley</h6>
+                  <p class="text-1 font-italic">CEO of Creative Commons, ex COO of the Mozilla Foundation</p>
+                  <p class="small">Ryan had been leading open-source projects at the Mozilla Foundation such as the open source movement.</p>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Section 6 for all screen sizes-->
+        <section class="row bg-dark section-6 py-5">
+            <h5 class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-capitalize font-weight-bold text-center my-4 text-white">partner</h5>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-sm-content justify-content-md-center justify-content-lg-center justify-content-xl-center">
+              <!--Mozilla Firefox logo-->
+              <svg class="mozilla-logo" xmlns="http://www.w3.org/2000/svg" viewBox="-97.8984 -73.19525 848.4528 439.1715">
+                <path d="M216.188 0l-13.625 3.125c.266 2.363.436 4.693.53 6.969.106 2.29.157 5.13.157 8.562v38.532c0 1.82.033 3.334.063 4.53.032 1.221.092 2.247.187 3.063.098.803.217 1.5.344 2.094.128.614.328 1.26.594 1.938.795 2.151 2.256 3.844 4.375 5.125l.406.25.406.218.438.188.406.187.437.188.469.156.438.125.468.125.469.125.469.094.5.094.5.062.5.031.5.063h.531l.531.031c2.884 0 5.541-.485 8.031-1.438l-2.28-8.062c-.416.128-.706.219-.845.219h-.687c-1.283 0-2.179-.462-2.719-1.406a6.227 6.227 0 01-.5-1.126c-.128-.414-.217-.996-.25-1.812-.043-.806-.092-1.87-.125-3.219-.033-1.346-.031-3.13-.031-5.343V13.406c0-3.635-.061-6.414-.156-8.375-.109-1.95-.277-3.623-.531-5.031zm27.343 0l-13.625 3.125c.266 2.363.426 4.693.531 6.969.106 2.29.188 5.13.188 8.562v38.532c0 1.82.001 3.334.031 4.53.032 1.221.093 2.247.188 3.063.097.803.218 1.5.343 2.094.139.614.328 1.26.594 1.938.795 2.151 2.246 3.844 4.375 5.125l.406.25.407.218.437.188.406.187.438.188.469.156.437.125.469.125.469.125.468.094.5.094.5.062.5.031.5.063h.532l.531.031c2.884 0 5.583-.485 8.062-1.438l-2.343-8.062c-.404.128-.654.219-.781.219h-.72c-1.282 0-2.178-.462-2.718-1.406-.2-.34-.364-.735-.5-1.125-.139-.415-.217-.996-.25-1.813-.033-.805-.085-1.87-.125-3.219-.033-1.345-.031-3.13-.031-5.343V13.406c0-3.635-.061-6.413-.156-8.375-.106-1.95-.266-3.623-.532-5.03zm-57.656.313c-2.344 0-4.356.787-6 2.406-1.641 1.611-2.469 3.616-2.469 5.969 0 2.351.826 4.326 2.438 5.937 1.61 1.612 3.534 2.438 5.812 2.438h.438l.219-.032h.218l.188-.03.219-.032.218-.031.188-.032.219-.03.187-.063.188-.032.187-.062.219-.063.187-.062.188-.063.187-.093.188-.063.156-.094.188-.093.187-.094.156-.094.188-.094.187-.093.156-.125.157-.125.156-.094.188-.125.156-.156.156-.125.156-.125.156-.157.157-.156c1.61-1.61 2.406-3.586 2.406-5.937 0-2.353-.796-4.358-2.375-5.97-1.568-1.618-3.485-2.405-5.75-2.405zm6.563 21.406l-13.625 2.156v50.719h13.625zm-93.5.219c-2.617 0-5.06.348-7.313 1.062-.376.12-.728.236-1.094.375-.366.14-.737.277-1.094.438a20.455 20.455 0 00-7.312 5.5c-2.013 2.384-3.575 5.3-4.688 8.625-1.1 3.339-1.624 6.932-1.624 10.968 0 4.04.523 7.767 1.624 11.063 1.113 3.307 2.675 6.085 4.688 8.406a21.057 21.057 0 007.313 5.438c2.851 1.28 6.01 1.906 9.5 1.906.503 0 .985-.012 1.468-.031 3.384-.136 6.277-.754 8.625-1.875a20.805 20.805 0 002.844-1.656c.3-.207.619-.435.906-.657.288-.221.568-.42.844-.656a23.043 23.043 0 002.344-2.312l.406-.5.406-.47.313-.468.406-.531.344-.5.344-.531.343-.532.281-.562.344-.531.25-.532.281-.562.282-.531.187-.625.281-.532.188-.593.219-.563c1.038-3.147 1.562-6.934 1.562-11.375 0-4.237-.504-7.92-1.437-10.875-.942-2.957-2.456-5.634-4.531-8.062-4.357-5.182-10.19-7.72-17.5-7.72zm180.718 0c-2.36 0-4.655.189-6.906.656-2.26.464-4.632 1.233-7.188 2.312-1.812.741-3.313 1.418-4.53 2.032-1.21.604-2.528 1.379-3.876 2.25l5.75 9.687c2.819-1.888 5.51-3.326 8-4.344 2.493-1.006 4.83-1.562 7-1.562 2.496 0 4.116.596 4.875 1.719.76 1.101 1.156 3.126 1.156 6.03v2.095a6.24 6.24 0 00-.656-.094 9.753 9.753 0 00-.906-.031h-1.5c-8.49 0-14.805 1.399-18.969 4.25-4.175 2.862-6.312 7.344-6.312 13.437 0 5.236 1.512 9.258 4.531 12 3.01 2.746 7.483 4.157 13.375 4.157 4.394 0 7.86-.97 10.438-2.844.542-.34 1.047-.797 1.562-1.25.515-.477 1.082-.93 1.625-1.469l.125.25.156.219.125.281.125.188.156.28.188.188.219.282.125.218.219.188.187.281.219.188.187.218.219.188.25.219.219.187.281.219a18.546 18.546 0 004.313 2.625l7.218-8.25c-1.139-.879-2.067-1.662-2.719-2.438a9.339 9.339 0 01-1.5-2.468c-.325-.89-.477-1.867-.53-2.907a45.602 45.602 0 01-.157-3.656l.281-17.375v-3.531c0-1.41-.016-2.466-.125-3.313a8.811 8.811 0 00-.75-2.375c-.976-2.883-2.831-5.107-5.625-6.656-2.794-1.535-6.48-2.281-10.875-2.281zm-267.469.125L0 25.375c.403.605.704 1.329.938 2.094.233.773.424 1.639.562 2.656.138 1.006.218 2.219.281 3.594.075 1.389.125 3 .125 4.875v36h13.125v-37.5c1.495-1.337 3.036-2.334 4.625-2.969 1.59-.637 3.051-.969 4.344-.969 1.897 0 3.146.537 3.75 1.563.613 1.05.906 3.163.906 6.375v33.5H41.47V37.5c1.473-1.335 3.024-2.383 4.625-3.156.403-.196.806-.385 1.187-.531 1.145-.439 2.171-.657 3.125-.657 1.801 0 2.973.462 3.469 1.407l.031.093.063.094.03.125.032.094.063.125.03.125.032.125.031.125.031.156.032.125.03.156.032.157.031.187.031.156.032.188.03.187.032.188v.187l.031.188v.219l.031.218V38l.032.219v.219l.03.25v.75l.032.25v34.906H67.75V37.875c0-3.497-.241-6.188-.781-8.062-.531-1.888-1.559-3.387-3.032-4.532-1.144-1.017-2.627-1.813-4.437-2.375-1.812-.572-3.737-.843-5.75-.843-1.415 0-2.753.116-4.031.375a16.364 16.364 0 00-3.625 1.188c-2.29 1.046-4.617 2.758-6.969 5.187-.34-.543-.66-1.013-1-1.407a15.98 15.98 0 00-1.031-1.125c-2.757-2.818-6.23-4.218-10.469-4.218-4.843 0-9.054 1.753-12.625 5.25-.265-1.346-.517-2.394-.75-3.094-.233-.708-.596-1.424-1.063-2.156zm118.282 1.093v9.532h22.281l-24.313 33.625v8.281H166.5l3.219-9.5H146l22.813-32.75v-9.188zm-31.344 8.875h.219l.281.063h.656l.219.062h.188l.218.094.188.063h.219l.187.062.219.063.187.062.219.063.125.093.219.063.187.125.156.062.188.157.125.062.219.125.125.063.219.156.124.125.126.125.218.156.125.125.156.125.126.156.124.188.157.156.125.125c1.812 2.34 2.719 6.939 2.719 13.75 0 6.096-.634 10.529-1.907 13.25-.954 2.067-2.405 3.357-4.344 3.875-.323.086-.65.144-1 .188a8.98 8.98 0 01-1.093.062c-1.334 0-2.684-.394-4-1.094-1.302-.7-2.239-1.725-2.844-3.125-1.131-2.807-1.719-7.12-1.719-12.937 0-2.545.114-4.78.344-6.656.234-1.864.616-3.478 1.094-4.813.528-1.611 1.416-2.848 2.656-3.781 1.24-.952 2.638-1.438 4.25-1.438zm184 20.22h.625l-.219 10.718c-2.034 2.257-4.475 3.375-7.187 3.375-1.79 0-3.205-.606-4.344-1.813-1.115-1.21-1.688-2.737-1.688-4.687v-.813l.063-.28v-.282l.063-.25V58l.062-.25v-.219l.094-.187.062-.281.063-.22.062-.187.063-.218.062-.188.094-.156.125-.188.062-.218.125-.125.094-.188.125-.156.125-.188.156-.156.063-.125.125-.125.219-.156.125-.125.125-.125.156-.063.125-.156.219-.125.187-.062c1.17-.65 2.915-1.1 5.219-1.344.46-.049.931-.093 1.437-.125a51.993 51.993 0 013.313-.094z" fill="#666"/>
+                <path d="M381.844 118c-12.1 0-21.453 3.225-28 9.688-6.548 6.463-9.813 15.6-9.813 27.437 0 2.64.119 5.398.344 8.281.235 2.884.493 5.583.813 8.063h-11.094v21.937h10.625v96.282h30.156v-96.282h21.969l7.875-21.937h-30.531v-16.813c0-4.302 1.157-7.582 3.468-9.875 2.311-2.31 5.52-3.468 9.531-3.468 1.86 0 3.563.227 5.188.687 1.616.48 4.15 1.55 7.531 3.25l9.969-19.625c-4.8-2.686-9.376-4.65-13.781-5.844-4.397-1.193-9.159-1.78-14.25-1.78zm-262.5 1.375c-5.42 0-10.03 1.83-13.844 5.531-3.805 3.711-5.688 8.286-5.688 13.688 0 5.383 1.834 9.924 5.563 13.625 3.72 3.71 8.22 5.531 13.5 5.531 5.43 0 9.999-1.82 13.719-5.531 3.72-3.701 5.594-8.242 5.594-13.625 0-5.402-1.824-9.977-5.47-13.688-3.635-3.7-8.095-5.53-13.374-5.53zM2 128.625v161.063h32.531v-71.282h41.125v-26.718H34.531v-36.344h51.157l3.687-26.719zm544.563 39.094l-32.188 9L547.25 226.5l-43.781 63.188h39.875l9.937-16.438c3.09-5.091 5.715-9.813 7.875-14.125a796.115 796.115 0 003.938-8.562c.14.46.617 1.39 1.406 2.781.911 1.55 1.87 3.243 2.875 5.094.996 1.85 1.995 3.652 2.906 5.437.93 1.776 1.593 3.12 2.063 4.031l12.531 21.782h39.344l-42.594-63.75 35.188-54.469h-36.594c-.47.77-1.273 2.168-2.438 4.187a69.925 69.925 0 00-3.093 6c-3.1 6.492-5.538 11.752-7.313 15.782-1.775 4.002-2.815 6.476-3.125 7.406-.46-1.08-1.055-2.388-1.75-3.844-.686-1.465-1.317-2.822-1.938-4.062-1.09-2.311-2.129-4.4-3.125-6.344-1.005-1.935-2.125-3.996-3.28-6.156a130.886 130.886 0 00-4.032-7.063c-1.531-2.555-3.383-5.767-5.563-9.656zm-412.157.656l-31.187 4.875v116.438h31.187zm47.563 0l-27.906 7.438c1.24 3.4 2.28 8.022 3.125 13.875.836 5.87 1.28 12.8 1.28 20.812v79.188h31.188v-83.782c5.712-6.641 12.049-9.968 19-9.968 3.081 0 6.091.772 9.031 2.312l8.594-27.312c-2.48-1.09-4.481-1.784-5.937-2.094-1.466-.31-3.355-.469-5.656-.469-5.862 0-11.15 1.712-15.782 5.094-4.631 3.41-8.63 7.332-12.031 11.812-.47-6.481-2.107-12.124-4.906-16.906zm93.187 0c-7.881 0-14.831 1.326-20.844 3.938-6.03 2.63-11.496 6.67-16.437 12.062-5.251 5.862-9.055 12.495-11.375 19.906-2.31 7.403-3.469 16.463-3.469 27.125 0 9.272 1.307 17.688 3.938 25.25 2.62 7.572 6.374 14.027 11.25 19.344 4.866 5.327 10.727 9.457 17.594 12.406 6.866 2.922 14.648 4.375 23.28 4.375 16.205 0 31.105-5.515 44.688-16.562l-12.062-18.563c-9.573 7.891-19.601 11.844-30.094 11.844-8.022 0-14.188-2.409-18.5-7.219-4.33-4.79-6.5-11.697-6.5-20.687v-.875h68.563v-7.281c0-12.645-1.298-23.118-3.844-31.469-2.546-8.342-6.514-15.342-11.906-20.969-3.87-4.049-8.832-7.155-14.844-9.344-6.04-2.17-12.486-3.28-19.438-3.28zm182.563.344c-7.994 0-15.275 1.466-21.813 4.406-6.557 2.922-12.128 7.14-16.75 12.625-4.622 5.477-8.213 12.01-10.75 19.656-2.536 7.647-3.781 16.104-3.781 25.375 0 9.263 1.245 17.666 3.781 25.22 2.537 7.552 6.128 13.985 10.75 19.312 4.622 5.326 10.193 9.475 16.75 12.406 6.538 2.93 13.819 4.375 21.813 4.375 9.243 0 16.922-1.444 23.094-4.375a49.2 49.2 0 0015.937-12.031c5.082-5.88 8.823-12.426 11.219-19.688 2.395-7.252 3.562-15.973 3.562-26.156 0-9.742-1.067-17.99-3.219-24.781-2.15-6.792-5.643-12.948-10.406-18.5-9.995-11.874-23.4-17.844-40.187-17.844zm-182.531 22.969c6.04 0 10.587 2.266 13.687 6.812a20.116 20.116 0 012.938 7.063c.535 2.592.78 6.072.78 10.468v1.344h-35.968v-.437c0-8.173 1.625-14.43 4.875-18.75 3.26-4.34 7.807-6.5 13.688-6.5zm183.156.343c5.692 0 10.134 2.076 13.375 6.22 4.133 5.382 6.219 15.868 6.219 31.5 0 13.93-1.454 24.027-4.375 30.312-2.922 6.284-7.846 9.406-14.75 9.406-3.091 0-6.129-.79-9.125-2.406-3.007-1.597-5.182-4.019-6.563-7.25-2.612-6.435-3.906-16.295-3.906-29.625 0-5.825.277-10.885.812-15.188.536-4.274 1.339-7.937 2.438-11 1.193-3.673 3.247-6.599 6.094-8.75 2.846-2.132 6.108-3.219 9.78-3.219z" fill="#272a31"/>
+              </svg>
+
+              <!--Google logo-->
+              <svg class="google-logo" xmlns="http://www.w3.org/2000/svg" viewBox="-40.446 -22.19 350.532 133.14">
+                <path d="M115.39 46.71c0 12.77-9.99 22.18-22.25 22.18s-22.25-9.41-22.25-22.18c0-12.86 9.99-22.18 22.25-22.18s22.25 9.32 22.25 22.18zm-9.74 0c0-7.98-5.79-13.44-12.51-13.44s-12.51 5.46-12.51 13.44c0 7.9 5.79 13.44 12.51 13.44s12.51-5.55 12.51-13.44z" fill="#666666"/>
+                <path d="M163.39 46.71c0 12.77-9.99 22.18-22.25 22.18s-22.25-9.41-22.25-22.18c0-12.85 9.99-22.18 22.25-22.18s22.25 9.32 22.25 22.18zm-9.74 0c0-7.98-5.79-13.44-12.51-13.44s-12.51 5.46-12.51 13.44c0 7.9 5.79 13.44 12.51 13.44s12.51-5.55 12.51-13.44z" fill="#666666"/>
+                <path d="M209.39 25.87v39.82c0 16.38-9.66 23.07-21.08 23.07-10.75 0-17.22-7.19-19.66-13.07l8.48-3.53c1.51 3.61 5.21 7.87 11.17 7.87 7.31 0 11.84-4.51 11.84-13v-3.19h-.34c-2.18 2.69-6.38 5.04-11.68 5.04-11.09 0-21.25-9.66-21.25-22.09 0-12.52 10.16-22.26 21.25-22.26 5.29 0 9.49 2.35 11.68 4.96h.34v-3.61h9.25zm-8.56 20.92c0-7.81-5.21-13.52-11.84-13.52-6.72 0-12.35 5.71-12.35 13.52 0 7.73 5.63 13.36 12.35 13.36 6.63 0 11.84-5.63 11.84-13.36z" fill="#666666"/>
+                <path d="M224.64 2.53v65h-9.5v-65z" fill="#666666"/>
+                <path d="M261.66 54.01l7.56 5.04c-2.44 3.61-8.32 9.83-18.48 9.83-12.6 0-22.01-9.74-22.01-22.18 0-13.19 9.49-22.18 20.92-22.18 11.51 0 17.14 9.16 18.98 14.11l1.01 2.52-29.65 12.28c2.27 4.45 5.8 6.72 10.75 6.72 4.96 0 8.4-2.44 10.92-6.14zm-23.27-7.98l19.82-8.23c-1.09-2.77-4.37-4.7-8.23-4.7-4.95 0-11.84 4.37-11.59 12.93z" fill="#666666"/>
+                <path d="M34.93 40.94v-9.41h31.71c.31 1.64.47 3.58.47 5.68 0 7.06-1.93 15.79-8.15 22.01-6.05 6.3-13.78 9.66-24.02 9.66C15.96 68.88 0 53.42 0 34.44 0 15.46 15.96 0 34.94 0c10.5 0 17.98 4.12 23.6 9.49l-6.64 6.64c-4.03-3.78-9.49-6.72-16.97-6.72-13.86 0-24.7 11.17-24.7 25.03 0 13.86 10.84 25.03 24.7 25.03 8.99 0 14.11-3.61 17.39-6.89 2.66-2.66 4.41-6.46 5.1-11.65z" fill="#666666"/>
+              </svg>
+
+              <!--Naver logo-->
+              <svg class="naver-logo" xmlns="http://www.w3.org/2000/svg" viewBox="-78.05175 -23.42875 676.4485 140.5725">
+                <path d="M0 .322h36.738s33.372 50.42 34.365 51.776c.996 1.351 1.119 0 1.119 0-1.538-7.808-3.208-11.312-3.208-23.78V.322h36.598v93.393H69.015s-32.687-47.73-33.677-49.049c-.984-1.318-1.113 0-1.113 0 1.257 6.445 2.373 7.523 2.373 18.703v30.346H0zm163.307 59.575l4.986-18.955c1.081-3.829 1.822-9.354 1.822-9.354.155-.844 1.324-.844 1.529.041.237 1.307.826 5.273 1.939 9.231l5.092 19.037zm-6.85 22.175h28.928l3.489 11.643h40.506L191.807.322h-42.328l-36.601 93.393h40.509zM325.796.322l-40.79 93.393h-32.414L211.805.322h39.955l13.969 42.486c1.529 4.582 2.651 14.646 2.651 14.646.261.794 1.204.735 1.351 0 0 0 1.119-10.063 2.657-14.646L285.841.322zm7.96 0h70.834V25.84h-32.276v8.912h29.481v24.281h-29.481v9.164h33.396v25.518h-71.953V.322zm124.969 25.196h2.944c6.56 0 12.29.864 12.29 8.051 0 6.932-6.293 7.799-12.577 7.799h-2.657zm-37.436 67.875h37.436V63.416s.24-1.063.958 0l16.515 29.977h44.147l-22.919-30.352c-2.098-2.719-5.637-5.048-6.422-5.566-.785-.527 0-.75 0-.75 14.256-4.21 20.402-10.148 20.402-24.275C511.406 8.918 491.273 0 467.528 0h-46.239z" fill="#666666"/>
+              </svg>
+
+              <!--Airbnb logo-->
+              <svg class="airbnb-logo" xmlns="http://www.w3.org/2000/svg" viewBox="-48.016245 -24.975 416.14079 149.85">
+                <path d="M168.7083 25.1c0 3.6-2.9 6.5-6.5 6.5s-6.5-2.9-6.5-6.5 2.8-6.5 6.5-6.5c3.7.1 6.5 3 6.5 6.5zm-26.8 13.1v1.6s-3.1-4-9.7-4c-10.9 0-19.4 8.3-19.4 19.8 0 11.4 8.4 19.8 19.4 19.8 6.7 0 9.7-4.1 9.7-4.1V73c0 .8.6 1.4 1.4 1.4h8.1V36.8h-8.1c-.8 0-1.4.7-1.4 1.4zm0 24.1c-1.5 2.2-4.5 4.1-8.1 4.1-6.4 0-11.3-4-11.3-10.8 0-6.8 4.9-10.8 11.3-10.8 3.5 0 6.7 2 8.1 4.1zm15.5-25.5h9.6v37.6h-9.6zm143.4-1c-6.6 0-9.7 4-9.7 4V18.7h-9.6v55.7h8.1c.8 0 1.4-.7 1.4-1.4v-1.7s3.1 4.1 9.7 4.1c10.9 0 19.4-8.4 19.4-19.8s-8.5-19.8-19.3-19.8zm-1.6 30.5c-3.7 0-6.6-1.9-8.1-4.1V48.8c1.5-2 4.7-4.1 8.1-4.1 6.4 0 11.3 4 11.3 10.8 0 6.8-4.9 10.8-11.3 10.8zm-22.7-14.2v22.4h-9.6V53.2c0-6.2-2-8.7-7.4-8.7-2.9 0-5.9 1.5-7.8 3.7v26.2h-9.6V36.8h7.6c.8 0 1.4.7 1.4 1.4v1.6c2.8-2.9 6.5-4 10.2-4 4.2 0 7.7 1.2 10.5 3.6 3.4 2.8 4.7 6.4 4.7 12.7zm-57.7-16.3c-6.6 0-9.7 4-9.7 4V18.7h-9.6v55.7h8.1c.8 0 1.4-.7 1.4-1.4v-1.7s3.1 4.1 9.7 4.1c10.9 0 19.4-8.4 19.4-19.8.1-11.4-8.4-19.8-19.3-19.8zm-1.6 30.5c-3.7 0-6.6-1.9-8.1-4.1V48.8c1.5-2 4.7-4.1 8.1-4.1 6.4 0 11.3 4 11.3 10.8 0 6.8-4.9 10.8-11.3 10.8zm-26-30.5c2.9 0 4.4.5 4.4.5v8.9s-8-2.7-13 3v26.3h-9.6V36.8h8.1c.8 0 1.4.7 1.4 1.4v1.6c1.8-2.1 5.7-4 8.7-4zm-99.7 35.2c-.5-1.2-1-2.5-1.5-3.6-.8-1.8-1.6-3.5-2.3-5.1l-.1-.1c-6.9-15-14.3-30.2-22.1-45.2l-.3-.6c-.8-1.5-1.6-3.1-2.4-4.7-1-1.8-2-3.7-3.6-5.5-3.2-4-7.8-6.2-12.7-6.2-5 0-9.5 2.2-12.8 6-1.5 1.8-2.6 3.7-3.6 5.5-.8 1.6-1.6 3.2-2.4 4.7l-.3.6c-7.7 15-15.2 30.2-22.1 45.2l-.1.2c-.7 1.6-1.5 3.3-2.3 5.1-.5 1.1-1 2.3-1.5 3.6-1.3 3.7-1.7 7.2-1.2 10.8 1.1 7.5 6.1 13.8 13 16.6 2.6 1.1 5.3 1.6 8.1 1.6.8 0 1.8-.1 2.6-.2 3.3-.4 6.7-1.5 10-3.4 4.1-2.3 8-5.6 12.4-10.4 4.4 4.8 8.4 8.1 12.4 10.4 3.3 1.9 6.7 3 10 3.4.8.1 1.8.2 2.6.2 2.8 0 5.6-.5 8.1-1.6 7-2.8 11.9-9.2 13-16.6.8-3.5.4-7-.9-10.7zm-45.1 5.2c-5.4-6.8-8.9-13.2-10.1-18.6-.5-2.3-.6-4.3-.3-6.1.2-1.6.8-3 1.6-4.2 1.9-2.7 5.1-4.4 8.8-4.4 3.7 0 7 1.6 8.8 4.4.8 1.2 1.4 2.6 1.6 4.2.3 1.8.2 3.9-.3 6.1-1.2 5.3-4.7 11.7-10.1 18.6zm39.9 4.7c-.7 5.2-4.2 9.7-9.1 11.7-2.4 1-5 1.3-7.6 1-2.5-.3-5-1.1-7.6-2.6-3.6-2-7.2-5.1-11.4-9.7 6.6-8.1 10.6-15.5 12.1-22.1.7-3.1.8-5.9.5-8.5-.4-2.5-1.3-4.8-2.7-6.8-3.1-4.5-8.3-7.1-14.1-7.1-5.8 0-11 2.7-14.1 7.1-1.4 2-2.3 4.3-2.7 6.8-.4 2.6-.3 5.5.5 8.5 1.5 6.6 5.6 14.1 12.1 22.2-4.1 4.6-7.8 7.7-11.4 9.7-2.6 1.5-5.1 2.3-7.6 2.6-2.7.3-5.3-.1-7.6-1-4.9-2-8.4-6.5-9.1-11.7-.3-2.5-.1-5 .9-7.8.3-1 .8-2 1.3-3.2.7-1.6 1.5-3.3 2.3-5l.1-.2c6.9-14.9 14.3-30.1 22-44.9l.3-.6c.8-1.5 1.6-3.1 2.4-4.6.8-1.6 1.7-3.1 2.8-4.4 2.1-2.4 4.9-3.7 8-3.7 3.1 0 5.9 1.3 8 3.7 1.1 1.3 2 2.8 2.8 4.4.8 1.5 1.6 3.1 2.4 4.6l.3.6c7.6 14.9 15 30.1 21.9 45v.1c.8 1.6 1.5 3.4 2.3 5 .5 1.2 1 2.2 1.3 3.2.8 2.6 1.1 5.1.7 7.7z" fill="#666666"/>
+              </svg>
+
+              <!--Airbnb logo-->
+              <svg class="airbnb-logo" xmlns="http://www.w3.org/2000/svg" viewBox="-48.016245 -24.975 416.14079 149.85">
+                <path d="M168.7083 25.1c0 3.6-2.9 6.5-6.5 6.5s-6.5-2.9-6.5-6.5 2.8-6.5 6.5-6.5c3.7.1 6.5 3 6.5 6.5zm-26.8 13.1v1.6s-3.1-4-9.7-4c-10.9 0-19.4 8.3-19.4 19.8 0 11.4 8.4 19.8 19.4 19.8 6.7 0 9.7-4.1 9.7-4.1V73c0 .8.6 1.4 1.4 1.4h8.1V36.8h-8.1c-.8 0-1.4.7-1.4 1.4zm0 24.1c-1.5 2.2-4.5 4.1-8.1 4.1-6.4 0-11.3-4-11.3-10.8 0-6.8 4.9-10.8 11.3-10.8 3.5 0 6.7 2 8.1 4.1zm15.5-25.5h9.6v37.6h-9.6zm143.4-1c-6.6 0-9.7 4-9.7 4V18.7h-9.6v55.7h8.1c.8 0 1.4-.7 1.4-1.4v-1.7s3.1 4.1 9.7 4.1c10.9 0 19.4-8.4 19.4-19.8s-8.5-19.8-19.3-19.8zm-1.6 30.5c-3.7 0-6.6-1.9-8.1-4.1V48.8c1.5-2 4.7-4.1 8.1-4.1 6.4 0 11.3 4 11.3 10.8 0 6.8-4.9 10.8-11.3 10.8zm-22.7-14.2v22.4h-9.6V53.2c0-6.2-2-8.7-7.4-8.7-2.9 0-5.9 1.5-7.8 3.7v26.2h-9.6V36.8h7.6c.8 0 1.4.7 1.4 1.4v1.6c2.8-2.9 6.5-4 10.2-4 4.2 0 7.7 1.2 10.5 3.6 3.4 2.8 4.7 6.4 4.7 12.7zm-57.7-16.3c-6.6 0-9.7 4-9.7 4V18.7h-9.6v55.7h8.1c.8 0 1.4-.7 1.4-1.4v-1.7s3.1 4.1 9.7 4.1c10.9 0 19.4-8.4 19.4-19.8.1-11.4-8.4-19.8-19.3-19.8zm-1.6 30.5c-3.7 0-6.6-1.9-8.1-4.1V48.8c1.5-2 4.7-4.1 8.1-4.1 6.4 0 11.3 4 11.3 10.8 0 6.8-4.9 10.8-11.3 10.8zm-26-30.5c2.9 0 4.4.5 4.4.5v8.9s-8-2.7-13 3v26.3h-9.6V36.8h8.1c.8 0 1.4.7 1.4 1.4v1.6c1.8-2.1 5.7-4 8.7-4zm-99.7 35.2c-.5-1.2-1-2.5-1.5-3.6-.8-1.8-1.6-3.5-2.3-5.1l-.1-.1c-6.9-15-14.3-30.2-22.1-45.2l-.3-.6c-.8-1.5-1.6-3.1-2.4-4.7-1-1.8-2-3.7-3.6-5.5-3.2-4-7.8-6.2-12.7-6.2-5 0-9.5 2.2-12.8 6-1.5 1.8-2.6 3.7-3.6 5.5-.8 1.6-1.6 3.2-2.4 4.7l-.3.6c-7.7 15-15.2 30.2-22.1 45.2l-.1.2c-.7 1.6-1.5 3.3-2.3 5.1-.5 1.1-1 2.3-1.5 3.6-1.3 3.7-1.7 7.2-1.2 10.8 1.1 7.5 6.1 13.8 13 16.6 2.6 1.1 5.3 1.6 8.1 1.6.8 0 1.8-.1 2.6-.2 3.3-.4 6.7-1.5 10-3.4 4.1-2.3 8-5.6 12.4-10.4 4.4 4.8 8.4 8.1 12.4 10.4 3.3 1.9 6.7 3 10 3.4.8.1 1.8.2 2.6.2 2.8 0 5.6-.5 8.1-1.6 7-2.8 11.9-9.2 13-16.6.8-3.5.4-7-.9-10.7zm-45.1 5.2c-5.4-6.8-8.9-13.2-10.1-18.6-.5-2.3-.6-4.3-.3-6.1.2-1.6.8-3 1.6-4.2 1.9-2.7 5.1-4.4 8.8-4.4 3.7 0 7 1.6 8.8 4.4.8 1.2 1.4 2.6 1.6 4.2.3 1.8.2 3.9-.3 6.1-1.2 5.3-4.7 11.7-10.1 18.6zm39.9 4.7c-.7 5.2-4.2 9.7-9.1 11.7-2.4 1-5 1.3-7.6 1-2.5-.3-5-1.1-7.6-2.6-3.6-2-7.2-5.1-11.4-9.7 6.6-8.1 10.6-15.5 12.1-22.1.7-3.1.8-5.9.5-8.5-.4-2.5-1.3-4.8-2.7-6.8-3.1-4.5-8.3-7.1-14.1-7.1-5.8 0-11 2.7-14.1 7.1-1.4 2-2.3 4.3-2.7 6.8-.4 2.6-.3 5.5.5 8.5 1.5 6.6 5.6 14.1 12.1 22.2-4.1 4.6-7.8 7.7-11.4 9.7-2.6 1.5-5.1 2.3-7.6 2.6-2.7.3-5.3-.1-7.6-1-4.9-2-8.4-6.5-9.1-11.7-.3-2.5-.1-5 .9-7.8.3-1 .8-2 1.3-3.2.7-1.6 1.5-3.3 2.3-5l.1-.2c6.9-14.9 14.3-30.1 22-44.9l.3-.6c.8-1.5 1.6-3.1 2.4-4.6.8-1.6 1.7-3.1 2.8-4.4 2.1-2.4 4.9-3.7 8-3.7 3.1 0 5.9 1.3 8 3.7 1.1 1.3 2 2.8 2.8 4.4.8 1.5 1.6 3.1 2.4 4.6l.3.6c7.6 14.9 15 30.1 21.9 45v.1c.8 1.6 1.5 3.4 2.3 5 .5 1.2 1 2.2 1.3 3.2.8 2.6 1.1 5.1.7 7.7z" fill="#666666"/>
+              </svg>
+            </div>
+        </section>
+      </main>
+
+      <footer class="container-fluid p-5">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center">
+             <div class="media">
+              <img src="images/footer-logo.PNG" alt="Creative Commons Korea logo"/>
+
+              <div class="media-body ml-5">
+                <p class="small text-capitalize font-weight-bold">2015 creative commons korea. some rights reserved.</p>
+                <small>Creative Commons, P.O Box 1866, Mountain View CA 94042</small>
+              </div>
+             </div>
+            </div>
+        </div>
+      </footer>
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

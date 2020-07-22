@@ -1,0 +1,493 @@
+@font-face {
+  font-family: cocogoose;
+  src: url(../font-families/cocogoose-pro.regular);
+  font-weight: bolder;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  background-color: white;
+  position: relative;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 425px) {
+  .navbar-3-links .link-6:hover {
+    background-color: #333;
+  }
+
+  .section-1 {
+    background: url("../images/people-walking.jpg") no-repeat center;
+  }
+
+  .section-1 h3 {
+    color: #ec5242;
+    background-color: #eeeeef;
+    mix-blend-mode: screen;
+    font-weight: bolder;
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: cocogoose, sans-serif;
+  }
+
+  .section-1 h1 {
+    color: #ec5242;
+    background-color: #eeeeef;
+    mix-blend-mode: screen;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 35px;
+    padding-bottom: 80px;
+    font-family: cocogoose, sans-serif;
+  }
+
+  .section-2 .card-body {
+    border: 1.9px solid #fff;
+    background-color: #e3e3e3;
+  }
+
+  .section-4 .section-4-1-flex-sm-items {
+    display: flex;
+    justify-content: space-around;
+    background-color: #666;
+  }
+
+  .section-4 .section-4-1-flex-sm-items .item-1-1 {
+    width: 100px;
+    height: 70px;
+  }
+
+  .section-4 .section-4-1-flex-sm-items .item-1-2 {
+    width: 67px;
+    height: 70px;
+  }
+
+  .section-4 .section-4-1-flex-sm-items .item-1-3 {
+    width: 67px;
+    height: 70px;
+  }
+
+  .section-4 .section-4-1-flex-sm-items .item-1-4 {
+    height: 70px;
+  }
+
+  .section-4 .section-4-1-flex-sm-items .item-1-5 {
+    width: 100px;
+    height: 70px;
+  }
+
+  .section-4 .section-4-1-flex-sm-items .item-2 {
+    color: #ec5242;
+  }
+
+  .section-4 .section-4-1-flex-sm-items .btn {
+    background-color: #ec5242;
+  }
+
+  @keyframes pop-out {
+    0% { background-color: #666; }
+
+    25% {
+      background-color: #999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    75% {
+      background-color: #aaa999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    100% {
+      background-color: #abb999;
+      box-shadow: 12px 12px 5px #000;
+    }
+  }
+
+  .section-4-1-1:hover,
+  .section-4-1-2:hover,
+  .section-4-1-3:hover,
+  .section-4-1-4:hover,
+  .section-4-1-5:hover {
+    width: 200px;
+    height: 200px;
+    animation-name: pop-out;
+    animation-duration: 4s;
+  }
+
+  .section-5 img {
+    box-shadow: -11px -5px black;
+  }
+
+  .section-5 img .media-body .font-italic {
+    color: #ec5242;
+  }
+
+  .section-6 .mozilla-logo,
+  .section-6 .google-logo,
+  .section-6 .naver-logo,
+  .section-6 .airbnb-logo {
+    width: 2500px;
+    height: 2500px;
+  }
+
+  footer .media-body {
+    width: 90px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-3-links .link-6:hover {
+    background-color: #333;
+  }
+
+  .section-1 {
+    background: url("../images/people-walking.jpg") no-repeat center;
+  }
+
+  .section-1 h3 {
+    color: #ec5242;
+    background-color: #eeeeef;
+    mix-blend-mode: screen;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    font-family: cocogoose, sans-serif;
+  }
+
+  .section-1 h1 {
+    color: #ec5242;
+    background-color: #eeeeef;
+    mix-blend-mode: screen;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 35px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    font-family: cocogoose, sans-serif;
+  }
+
+  .section-2 .card-body {
+    border: 1.9px solid #fff;
+    background-color: #e3e3e3;
+  }
+
+  .section-4 .section-4-1-flex-sm-items {
+    display: flex;
+    justify-content: space-around;
+    background-color: #666;
+  }
+
+  .section-4 .item-1-1 {
+    width: 100px;
+    height: 70px;
+  }
+
+  .section-4 .item-1-2 {
+    width: 67px;
+    height: 70px;
+  }
+
+  .section-4 .item-1-3 {
+    width: 67px;
+    height: 70px;
+  }
+
+  .section-4 .item-1-4 {
+    height: 70px;
+  }
+
+  .section-4 .item-1-5 {
+    width: 100px;
+    height: 70px;
+  }
+
+  .section-4 .item-2 {
+    color: #ec5242;
+  }
+
+  .section-4 .btn {
+    background-color: #ec5242;
+  }
+
+  @keyframes pop-out {
+    0% { background-color: #666; }
+
+    25% {
+      background-color: #999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    75% {
+      background-color: #aaa999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    100% {
+      background-color: #abb999;
+      box-shadow: 12px 12px 5px #000;
+    }
+  }
+
+  .section-4-1-1:hover,
+  .section-4-1-2:hover,
+  .section-4-1-3:hover,
+  .section-4-1-4:hover,
+  .section-4-1-5:hover {
+    width: 200px;
+    height: 200px;
+    animation-name: pop-out;
+    animation-duration: 4s;
+  }
+
+  .section-5 img {
+    box-shadow: -11px -5px black;
+  }
+
+  .section-5 .media-body .font-italic {
+    color: #ec5242;
+  }
+
+  .section-6 .mozilla-logo,
+  .section-6 .google-logo,
+  .section-6 .naver-logo,
+  .section-6 .airbnb-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  footer .media-body {
+    width: 90px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-2 svg.facebook-logo,
+  .navbar-2 svg.twitter-logo {
+    fill: #fff;
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  .navbar-3 {
+    box-shadow: 5px 5px 7px #e3e3e3;
+  }
+
+  .navbar-3 .navbar-3-logo {
+    width: 99px;
+    height: 46px;
+  }
+
+  .navbar-3 .navbar-3-links .link-1,
+  .navbar-3 .navbar-3-links .link-6 {
+    color: #ec5242;
+  }
+
+  .navbar-3 .navbar-3-links .link-6 {
+    border: 2.9px solid #ec5242;
+  }
+
+  .navbar-3-links .link-6:hover {
+    background-color: #333;
+  }
+
+  .section-1 {
+    background: url("../images/people-walking.jpg") no-repeat fixed center;
+    background-size: cover;
+  }
+
+  .section-1 h3 {
+    color: #ec5242;
+    background-color: #eeeeef;
+    mix-blend-mode: screen;
+    font-weight: bolder;
+    margin-bottom: 0;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    font-family: cocogoose, sans-serif;
+  }
+
+  .section-1 h1 {
+    color: #ec5242;
+    background-color: #eeeeef;
+    mix-blend-mode: screen;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 35px;
+    padding-bottom: 150px;
+    padding-left: 70px;
+    font-family: cocogoose, sans-serif;
+  }
+
+  .section-2 .card-body {
+    border: 1.9px solid #fff;
+    background-color: #e3e3e3;
+  }
+
+  .section-3 h3 {
+    color: #272a31;
+  }
+
+  .section-4 .section-4-1-flex-sm-items {
+    background-color: #666;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+
+  .section-4 .item-1-1 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .section-4 .item-1-2 {
+    width: 67px;
+    height: 70px;
+  }
+
+  .section-4 .item-1-3 {
+    width: 67px;
+    height: 70px;
+  }
+
+  .section-4 .item-1-4 {
+    height: 70px;
+  }
+
+  .section-4 .item-1-5 {
+    width: 100px;
+    height: 70px;
+  }
+
+  .section-4 .item-2 {
+    color: #ec5242;
+  }
+
+  .section-4 .item-3 p {
+    font-size: 10px;
+  }
+
+  .section-4 a {
+    text-decoration: underline;
+  }
+
+  @keyframes pop-out {
+    0% { background-color: #666; }
+
+    25% {
+      background-color: #999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    75% {
+      background-color: #aaa999;
+      box-shadow: 12px 12px 5px #000;
+    }
+
+    100% {
+      background-color: #abb999;
+      box-shadow: 12px 12px 5px #000;
+    }
+  }
+
+  .section-4-1-1:hover,
+  .section-4-1-2:hover,
+  .section-4-1-3:hover,
+  .section-4-1-4:hover,
+  .section-4-1-5:hover {
+    width: 200px;
+    height: 200px;
+    animation-name: pop-out;
+    animation-duration: 4s;
+  }
+
+  .section-5 {
+    margin: 0 auto;
+    max-width: 1400px;
+  }
+
+  .section-5 .section-5-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 75px;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+
+  .section-5 .section-5-1 .grid-5-1,
+  .section-5 .section-5-1 .grid-5-4 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .section-5 .section-5-1 .grid-5-2,
+  .section-5 .section-5-1 .grid-5-5 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .section-5 .section-5-1 .grid-5-3,
+  .section-5 .section-5-1 .grid-5-6 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .section-5 .section-5-1 .grid-5-1,
+  .section-5 .section-5-1 .grid-5-2,
+  .section-5 .section-5-1 .grid-5-3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .section-5 .section-5-1 .grid-5-4,
+  .section-5 .section-5-1 .grid-5-5,
+  .section-5 .section-5-1 .grid-5-6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .section-5 .section-5-1 img {
+    box-shadow: -11px -5px black;
+  }
+
+  .section-5 .section-5-1 .media-body .font-italic {
+    color: #ec5242;
+  }
+
+  .section-6 .mozilla-logo,
+  .section-6 .google-logo,
+  .section-6 .naver-logo,
+  .section-6 .airbnb-logo {
+    width: 150px;
+    height: 150px;
+  }
+}

@@ -1,33 +1,29 @@
-# Project 9 - HTML and CSS Capstone Project
+# Project 8 - HTML and CSS Capstone Project
 
-This is a solo project where I had to replicate/clone the CC Global Summit 2015 Website according to <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">these specifications.</a>
+This is a solo project where I had to replicate/clone the CC Global Summit 2015 website according to <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">these specifications.</a>
 
-## Preview of web page
+## Preview of CC Global Summit 2015 website
 
-### Mobile Screen
-
-![Mobile preview](images/mobile_preview.PNG)
-
-### Tablet Screen
-
-![Tablet preview](images/tablet_preview.PNG)
-
-### Laptop Screen
-
-![Laptop preview](images/laptop_preview.PNG)
+![Website preview](images/website_preview.png)
 
 ## Built With
 
 - HTML5
 - CSS3
 - <a href="https://materializecss.com/icons.html">Google icons</a>
-- SVG icons
+- <a href="https://www.flaticon.com/">SVG icons</a>
+- <a href="https://www.logo.wine/logo/Airbnb">Company Logos in SVG format</a>
+- Google Web Fonts
 - Bootstrap 4
 - Sass
 
 ## Live Demo
 
 <a href="https://raw.githack.com/chelmerrox/Project-9-HTML-and-CSS-Capstone/master/main.html">Live demo</a>
+
+## My Video Presentation for this Project
+
+[My Video Presentation](https://www.loom.com/share/6c1e341293b44b44bd55ff3825564716)
 
 ## Getting Started
 
